@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Upload Foto  Dokumen Pilih file Lembaga_0bfaf1</name>
+   <tag></tag>
+   <elementGuidId>f5049e21-0f60-4b41-be39-e084b9deb48d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pengajuan']/span/div/div/form/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cf39dddb-9e60-4731-a727-d42554b9bd8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>15117ad0-5f0c-4d6f-9e6c-67de7e7394ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Foto / Dokumen *Pilih file Lembaga Format file: jpeg, png, jpg, pdf. Ukuran maks: 2 MB </value>
+      <webElementGuid>f54a5488-7899-4377-b9e1-931502616d9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pengajuan&quot;)/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]</value>
+      <webElementGuid>4ca3d64e-3f84-4d3b-8936-cef934831dac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pengajuan']/span/div/div/form/div[5]</value>
+      <webElementGuid>5ddecad7-34af-4b2b-9265-896c8f44eb52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::div[1]</value>
+      <webElementGuid>35227d8c-9cb5-4fc1-8cc2-7ae52e192cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]</value>
+      <webElementGuid>82990c6f-5e68-4c9c-a4a2-e5500952fd1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Upload Foto / Dokumen *Pilih file Lembaga Format file: jpeg, png, jpg, pdf. Ukuran maks: 2 MB ' or . = 'Upload Foto / Dokumen *Pilih file Lembaga Format file: jpeg, png, jpg, pdf. Ukuran maks: 2 MB ')]</value>
+      <webElementGuid>bcf56539-bd2f-46e0-a494-2c4f939dfb5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

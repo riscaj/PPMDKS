@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Upload Foto KTP Pilih file foto KTP For_77404f</name>
+   <tag></tag>
+   <elementGuidId>fb346c5a-1ad7-4e02-97eb-f95a0998169a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataPIC']/span/div/div/form/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7bc009df-6f34-49e4-a762-eef9dae69144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>f1f68c4f-42fe-47dd-acf7-1599764f35e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Foto KTP *Pilih file foto KTP Format file: jpeg, png, jpg. Ukuran maks: 2 MB </value>
+      <webElementGuid>f488e7e8-15f7-4163-8f37-09149d68d014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@id=&quot;dataPIC&quot;]/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@id=&quot;dataPIC&quot;]/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]</value>
+      <webElementGuid>6381f02c-f1bf-4d3b-88dd-c60c27f5db7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataPIC']/span/div/div/form/div[5]</value>
+      <webElementGuid>236eaa85-722d-4713-bff1-024c6130f295</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[17]/following::div[1]</value>
+      <webElementGuid>01ba365f-6dd2-4969-aaa1-2ebcc014c0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]</value>
+      <webElementGuid>3a409fc0-bd46-4f52-b8c4-5eae73eba388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Upload Foto KTP *Pilih file foto KTP Format file: jpeg, png, jpg. Ukuran maks: 2 MB ' or . = 'Upload Foto KTP *Pilih file foto KTP Format file: jpeg, png, jpg. Ukuran maks: 2 MB ')]</value>
+      <webElementGuid>1a668b3f-617b-4c96-898f-5f46f5ddbc1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Upload Foto  Dokumen</name>
+   <tag></tag>
+   <elementGuidId>db3a18e7-cfef-401a-a2f2-29958ccc22f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__554 > div > span > label.label-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__554']/div/span/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>308b82f5-61c2-41a9-8cfc-82ce5ba80ab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label-small</value>
+      <webElementGuid>8f2d75f2-2b9c-455d-9222-5edd586964a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Foto / Dokumen *</value>
+      <webElementGuid>c86b214f-4826-4844-86ff-9640be309099</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__554&quot;)/div[1]/span[1]/label[@class=&quot;label-small&quot;]</value>
+      <webElementGuid>257ab25d-a3ab-4938-8581-dc9dfd3b4fda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__554']/div/span/label</value>
+      <webElementGuid>46a8abd5-5766-48b6-9f12-0a8c71825efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::label[1]</value>
+      <webElementGuid>2973eba3-e18b-4b29-961d-5421ee49911c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih file Lembaga'])[1]/preceding::label[1]</value>
+      <webElementGuid>b39ea2f4-e459-4086-9415-01cbd911c743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upload Foto / Dokumen']/parent::*</value>
+      <webElementGuid>38537604-9ae3-47b6-b83c-fed3ad7c9ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/fieldset/div/span/label</value>
+      <webElementGuid>90c36e0e-edc3-4614-b25a-072f80a66c76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Upload Foto / Dokumen *' or . = 'Upload Foto / Dokumen *')]</value>
+      <webElementGuid>635fab47-4e8b-4808-80d5-6dd82b49566e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pendidikan Terakhir_vs__selected-options</name>
+   <tag></tag>
+   <elementGuidId>9ed3d90d-c71a-48eb-88aa-f0b62ac797c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#vs14__combobox > div.vs__selected-options</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vs14__combobox']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d6d55d91-eeba-425c-8296-6c6a229f3151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vs__selected-options</value>
+      <webElementGuid>f54e8d50-0611-4872-bbff-d1c0da03e441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vs14__combobox&quot;)/div[@class=&quot;vs__selected-options&quot;]</value>
+      <webElementGuid>84bfca5c-b4a8-4bd9-b3cd-0fb3a03b27bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vs14__combobox']/div</value>
+      <webElementGuid>645c5411-eb43-4a86-8413-6bf6bc575dec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pendidikan Terakhir'])[1]/following::div[3]</value>
+      <webElementGuid>b6f50a47-5a26-4133-b0cc-f0944ed54847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[6]/following::div[5]</value>
+      <webElementGuid>f1a1de52-014f-4649-ae42-05adaa2265f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[7]/preceding::div[1]</value>
+      <webElementGuid>107f4d4b-8c92-4402-881a-ae685bfc76dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SD'])[1]/preceding::div[3]</value>
+      <webElementGuid>7b85a47f-a155-44d6-808f-f118d7e5242c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/span/div/div/div</value>
+      <webElementGuid>5187bd74-1c1f-4ba7-a766-256fa61d70c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

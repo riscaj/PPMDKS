@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pekerjaan The Pekerjaan field is required</name>
+   <tag></tag>
+   <elementGuidId>8d61c050-933c-4f0a-a9d1-2406d842e446</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__624 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__624']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cefe3cc4-0bec-4069-862e-bf018fb79149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pekerjaan *The Pekerjaan field is required</value>
+      <webElementGuid>0ab1fb02-8817-432c-963b-49ce5f1bf02d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__624&quot;)/div[1]</value>
+      <webElementGuid>49aef82b-6e8e-4054-a799-c6723ceb0eb7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__624']/div</value>
+      <webElementGuid>f909a3b0-5e6a-4b42-910e-ed8750cce588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duda'])[1]/following::div[1]</value>
+      <webElementGuid>20241bf0-3449-40e7-a424-b1584b4f7216</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Janda'])[1]/following::div[1]</value>
+      <webElementGuid>4f62df02-5220-40f9-8bb6-f2ccc0354ebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[4]/div</value>
+      <webElementGuid>b3c66338-9bec-4830-a2f8-9c4b155ffe0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pekerjaan *The Pekerjaan field is required' or . = 'Pekerjaan *The Pekerjaan field is required')]</value>
+      <webElementGuid>df15f183-0652-4d67-99e2-546d9b79b9ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

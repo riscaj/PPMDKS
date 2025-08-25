@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pendidikan Terakhir     Loading</name>
+   <tag></tag>
+   <elementGuidId>129e5e00-0b83-486e-ba28-7da353f65520</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataPIC']/span/div/div/form/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e1934a28-89a0-45a7-aeb4-e5d7421df3dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-md-0 mb-2 col-md-6 col-xl-5</value>
+      <webElementGuid>76dc9eb6-2821-49a6-ab00-f3c9dfe6992b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pendidikan Terakhir     Loading...  </value>
+      <webElementGuid>f400bcdb-ebf7-42f1-94f1-a8744f146067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;app-content content&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;content-body&quot;]/div[@id=&quot;dataPIC&quot;]/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@id=&quot;dataPIC&quot;]/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-md-0 mb-2 col-md-6 col-xl-5&quot;]</value>
+      <webElementGuid>cec8b72c-52e3-4d82-b69f-296d7965e6fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataPIC']/span/div/div/form/div[4]/div</value>
+      <webElementGuid>f92ac7e1-0e8d-41d6-a28e-23977bb5ad14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[6]/following::div[2]</value>
+      <webElementGuid>ad4abf8c-25ac-4290-8d46-a1f4c5eed56a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[16]/following::div[7]</value>
+      <webElementGuid>8ebe2811-dbf5-4610-8caa-4da5219f7235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[4]/div</value>
+      <webElementGuid>b5cdbd68-27a5-4941-bc06-7aa7a8788a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pendidikan Terakhir     Loading...  ' or . = 'Pendidikan Terakhir     Loading...  ')]</value>
+      <webElementGuid>469f7f57-b044-4c0f-8e22-5d57b83e9eae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

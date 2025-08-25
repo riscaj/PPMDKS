@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Format file jpeg, png, jpg. Ukuran maks 2 MB</name>
+   <tag></tag>
+   <elementGuidId>47caee01-1d37-4ac6-9f46-a0d824da5eb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__691']/div/span/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6109bb76-f0be-45e3-a313-a2da3e94f6c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col</value>
+      <webElementGuid>71daa96e-1ab7-4a2e-b4af-db9ee5b221b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Format file: jpeg, png, jpg. Ukuran maks: 2 MB </value>
+      <webElementGuid>8c1f2551-b80c-4c6a-8247-fed3b6a6a99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__691&quot;)/div[1]/span[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]</value>
+      <webElementGuid>e369f17a-bc68-4d4c-82bf-ae55319c198e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__691']/div/span/div[2]/div</value>
+      <webElementGuid>c1747ff8-5f7c-4a8a-9ba7-3332a1b8ebf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih file foto KTP'])[1]/following::div[2]</value>
+      <webElementGuid>b0a9d6a9-b7ea-4f2a-8e68-e82a5ba667c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[18]/following::div[3]</value>
+      <webElementGuid>ad8c04d5-5cb5-43fa-8a0b-760b015c5ed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div[2]/div</value>
+      <webElementGuid>ffadfe0f-3cd5-4eb3-bc34-c77af95a5df2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Format file: jpeg, png, jpg. Ukuran maks: 2 MB ' or . = ' Format file: jpeg, png, jpg. Ukuran maks: 2 MB ')]</value>
+      <webElementGuid>2fb0913e-a3e3-43d2-b015-d4066b62d34c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
