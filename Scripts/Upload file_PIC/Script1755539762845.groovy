@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor
 
 WebUI.openBrowser('')
 
@@ -30,9 +34,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/span_Data PIC'))
+WebUI.delay(20)
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/a_Data PIC'))
+TestObject btnDataPIC = new TestObject()
+btnDataPIC.addProperty('xpath', ConditionType.EQUALS, "//a[@href='/data-pic' and contains(.,'Data PIC')]")
+
+WebUI.click(btnDataPIC)
+
+WebUI.delay(35)
 
 //Click Tambah Data
 TestObject btnTambahData = new TestObject('dynamic_button_TambahData')
@@ -40,23 +49,30 @@ btnTambahData.addProperty('xpath', ConditionType.EQUALS, '//span[contains(text()
 WebUI.waitForElementVisible(btnTambahData, 10)
 WebUI.waitForElementClickable(btnTambahData, 10)
 WebUI.click(btnTambahData)
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__nomor_ktp'), '3277676877008091')
 
-//Search NIK
+TestObject inputNIK = new TestObject('inputNIK')
+inputNIK.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_ktp\']')
+WebUI.waitForElementVisible(inputNIK, 10)
+WebUI.setText(inputNIK, '3277676877008091')
+
 TestObject searchBtn = new TestObject('searchBtn')
 searchBtn.addProperty('xpath', ConditionType.EQUALS, '//button[@class=\'btn btn-outline-primary\']')
 WebUI.click(searchBtn)
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__tempat_lahir'), 'Jakarta')
+TestObject tempatlahir = new TestObject('tempatlahir')
+tempatlahir.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'tempat_lahir\']')
+WebUI.waitForElementVisible(tempatlahir, 10)
+WebUI.setText(tempatlahir, 'Jakarta')
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__nama_lengkap'), 'Marisca1')
+TestObject namalengkap = new TestObject('namalengkap')
+namalengkap.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lengkap\']')
+WebUI.waitForElementVisible(namalengkap, 10)
+WebUI.setText(namalengkap, 'Marisca J')
 
-//Select Tanggal Lahir
 TestObject tanggalLahir = new TestObject()
-tanggalLahir.addProperty('id', ConditionType.EQUALS, '__BVID__536')
+tanggalLahir.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'tanggal_lahir\']')
 WebUI.setText(tanggalLahir, '12-01-1998')
 
-//Select Status Perkawinan
 TestObject dropdownStatusPIC = new TestObject('dropdownStatusPIC')
 dropdownStatusPIC.addProperty('xpath', ConditionType.EQUALS, '//div[@id=\'vs5__combobox\']')
 WebUI.click(dropdownStatusPIC)
@@ -65,15 +81,33 @@ TestObject pilihan = new TestObject('option_StatusPIC')
 pilihan.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@id,\'vs5__option\') and normalize-space(text())=\'' + opsi) + '\']')
 WebUI.click(pilihan)
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__nama_ibu'), 'Ibu')
+TestObject namaibu = new TestObject('namaibu')
+namaibu.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_ibu\']')
+WebUI.waitForElementVisible(namaibu, 10)
+WebUI.setText(namaibu, 'Ibuku')
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__pekerjaan'), 'IRT')
+TestObject pekerjaan = new TestObject('pekerjaan')
+pekerjaan.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'pekerjaan\']')
+WebUI.waitForElementVisible(pekerjaan, 10)
+WebUI.setText(pekerjaan, 'Pegawai')
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__kewarganegaraan'), 'ID')
+TestObject kewarganegaraan = new TestObject('kewarganegaraan')
+kewarganegaraan.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'kewarganegaraan\']')
+WebUI.waitForElementVisible(kewarganegaraan, 10)
+WebUI.setText(kewarganegaraan, 'WNI')
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/label_Perempuan'))
+//Pilih "Laki-laki"
+//TestObject radioLaki = new TestObject()
+//radioLaki.addProperty("xpath", ConditionType.EQUALS, "//label[contains(normalize-space(.),'Laki-laki')]")
 
-//Select Agama
+//WebUI.click(radioLaki)
+
+//Pilih "Perempuan"
+TestObject radioPerempuan = new TestObject()
+radioPerempuan.addProperty("xpath", ConditionType.EQUALS, "//label[contains(normalize-space(.),'Perempuan')]")
+
+WebUI.click(radioPerempuan)
+
 TestObject dropdownAgamaPIC = new TestObject('dropdownAgamaPIC')
 dropdownAgamaPIC.addProperty('xpath', ConditionType.EQUALS, '//div[@id=\'vs6__combobox\']')
 WebUI.click(dropdownAgamaPIC)
@@ -81,14 +115,16 @@ String opsi1 = 'Islam'
 TestObject pilihan1 = new TestObject('option_AgamaPIC')
 pilihan1.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@id,\'vs6__option\') and normalize-space(text())=\'' + opsi1) + '\']')
 WebUI.click(pilihan1)
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/textarea_Alamat_alamat'), 'Jalan Raya')
+
+TestObject alamatField = new TestObject()
+alamatField.addProperty("xpath", ConditionType.EQUALS, "//label[normalize-space()='Alamat']/following::textarea[1]")
+WebUI.setText(alamatField, "Jl. Kenanga No. 7")
 
 //Input RT
 TestObject inputRT = new TestObject('dynamicRT')
 inputRT.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rt\']')
 WebUI.waitForElementVisible(inputRT, 10)
 WebUI.setText(inputRT, '1')
-
 
 //Input RW
 TestObject inputRW = new TestObject('dynamicRW')
@@ -146,10 +182,6 @@ TestObject inputNoTlp = new TestObject('dynamicNoTlp')
 inputNoTlp.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_telepon\']')
 WebUI.waitForElementVisible(inputNoTlp, 10)
 WebUI.setText(inputNoTlp, '652167868712')
-
-
-//WebUI.click(findTestObject('Object Repository/Page_PPMDKS/div_Upload Foto KTP Pilih file foto KTP For_77404f'))
-//WebUI.click(findTestObject('Object Repository/Page_PPMDKS/label_Pilih file foto KTP'))
 
 //Upload File
 TestObject uploadFileInput = new TestObject()

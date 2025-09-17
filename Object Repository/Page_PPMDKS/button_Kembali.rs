@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-filter.btn-success</value>
+         <value>button.btn.btn-secondary.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2c4b392d-facb-4238-a851-03f3a724883e</webElementGuid>
+      <webElementGuid>7fe19920-9497-4e55-9bcf-30c5bd669b6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>826979be-f234-4506-b0fc-00a274e48f4e</webElementGuid>
+      <value>button</value>
+      <webElementGuid>9e3385da-c054-4d6d-b4be-718d7559bd4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn button-small-filter btn-success</value>
-      <webElementGuid>84f5e1b7-30a6-45d8-80b9-3493ec6f82eb</webElementGuid>
+      <value>btn btn-secondary btn-sm</value>
+      <webElementGuid>2b3a4ec3-c1e4-4d43-853d-3569acc5f0ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,90 @@
       <name>text</name>
       <type>Main</type>
       <value> Kembali </value>
-      <webElementGuid>e7c94c7d-654e-40d3-af6c-66c087b24688</webElementGuid>
+      <webElementGuid>8aca2f14-5ba6-4c5d-a5f1-9a2eb307009b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pengajuan&quot;)/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;d-flex justify-content-end col-md-10&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]</value>
-      <webElementGuid>5233b31f-2309-498d-94c2-6029c8463f55</webElementGuid>
+      <value>id(&quot;approveTransaksiKas&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[@class=&quot;row align-items-center w-100&quot;]/div[@class=&quot;text-right col&quot;]/button[@class=&quot;btn btn-secondary btn-sm&quot;]</value>
+      <webElementGuid>0b5cf0dc-52aa-4589-96c5-9d5bb16f2f47</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>807cd7ff-ddc7-4889-8b56-93a50dceb3bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='approveTransaksiKas']/section/div/div/div/div[2]/button</value>
+      <webElementGuid>38c74765-eef5-494d-826e-5eded4b1e00e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Persetujuan Transaksi Kas'])[1]/following::button[1]</value>
+      <webElementGuid>81b7a850-d558-40dc-bcdf-ae963b290a7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/following::button[1]</value>
+      <webElementGuid>98efd0d0-dd32-4dc5-b707-b71789b3c5b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Transaksi'])[1]/preceding::button[1]</value>
+      <webElementGuid>9a281ef5-5174-4721-b7c8-17a5e4a04767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Outlet:'])[1]/preceding::button[1]</value>
+      <webElementGuid>24b77877-8a55-44dc-9e4b-e1e87528a407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
+      <webElementGuid>cc73dc6b-95e7-42e0-b8d3-2865fb745759</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/button</value>
+      <webElementGuid>10980441-5def-491a-ae0f-3f73c90ee00d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Kembali ' or . = ' Kembali ')]</value>
+      <webElementGuid>2bf8f6c6-58a3-4646-90fe-015fb186c210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -86,24 +158,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/following::button[1]</value>
-      <webElementGuid>b9334250-87f9-4603-acf8-89caa1f8f653</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::button[1]</value>
       <webElementGuid>d38c8fd0-5012-410f-a4a2-eb87efd8baf3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
-      <webElementGuid>56387eb5-d30e-41c4-87f6-950aa204b652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

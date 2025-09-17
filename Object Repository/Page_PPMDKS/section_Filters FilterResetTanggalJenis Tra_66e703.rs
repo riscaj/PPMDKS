@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Filters FilterResetTanggalJenis Tra_66e703</name>
+   <tag></tag>
+   <elementGuidId>612ce11e-9979-4301-9824-7dc2b38c2f4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='approveTransaksiKas']/section</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>b0f4001a-2988-41b3-8b22-d3b2ba1d9420</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Filters FilterResetTanggalJenis TransferDeskripsiNominalStatusAksi14-Sep-2025TRANSAKSI KASok5,000,000PENGAJUAN1</value>
+      <webElementGuid>2d85f777-6a62-48ea-8df3-63a935921245</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;approveTransaksiKas&quot;)/section[1]</value>
+      <webElementGuid>e986910b-d64b-4ceb-8c3f-ea86bf421749</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='approveTransaksiKas']/section</value>
+      <webElementGuid>8b9c8aed-f795-4771-a1f6-4fbeb6537db9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/following::section[1]</value>
+      <webElementGuid>e0fdd719-96f5-4b6f-ba26-94801561c015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::section[1]</value>
+      <webElementGuid>3a753afb-96c8-4604-822e-8ec28dc2ee8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section</value>
+      <webElementGuid>e02c63fa-11e3-41f9-84dd-1cd0e3993ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = ' Filters FilterResetTanggalJenis TransferDeskripsiNominalStatusAksi14-Sep-2025TRANSAKSI KASok5,000,000PENGAJUAN1' or . = ' Filters FilterResetTanggalJenis TransferDeskripsiNominalStatusAksi14-Sep-2025TRANSAKSI KASok5,000,000PENGAJUAN1')]</value>
+      <webElementGuid>62e96e8f-a9dc-4fcf-9c9e-680f7c9bb2f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

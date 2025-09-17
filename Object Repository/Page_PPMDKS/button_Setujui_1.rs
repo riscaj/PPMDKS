@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Tambah Data</name>
+   <name>button_Setujui_1</name>
    <tag></tag>
-   <elementGuidId>acf08adc-dd85-4b94-bcd3-f823fa8fe295</elementGuidId>
+   <elementGuidId>8fcb4278-c31e-4438-95cb-e52e8ebe3b79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-success.btn-success.btn-sm</value>
+         <value>form > div.d-flex.justify-content-end > button.btn.btn-success.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,110 +23,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>970f4f7f-5790-4794-9ec1-26194bb54fcc</webElementGuid>
+      <webElementGuid>e2b02beb-d111-4bd1-8da5-97f34b45d327</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6a4ae052-32a0-4c41-a2e4-60486f2fbc33</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>f530937c-e12e-43c1-957d-749da13da790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn button-small-success btn-success btn-sm</value>
-      <webElementGuid>bf45cba2-8135-4ab2-85e7-8146d8f90728</webElementGuid>
+      <value>btn btn-success btn-sm</value>
+      <webElementGuid>21447f55-db0a-4f23-9641-66fd3297f17a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tambah Data</value>
-      <webElementGuid>605a044c-24a6-400f-b37d-1ba784e3b5c3</webElementGuid>
+      <value> Setujui </value>
+      <webElementGuid>01a41a3b-28ce-48de-a325-71d3c0cb6e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaksiKas&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;custom-search d-flex justify-content-between mb-2&quot;]/button[@class=&quot;btn button-small-success btn-success btn-sm&quot;]</value>
-      <webElementGuid>996c0f9e-c9ba-4e27-abf8-2ab4c6779aa0</webElementGuid>
+      <value>id(&quot;__BVID__802___BV_modal_body_&quot;)/span[1]/form[1]/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]</value>
+      <webElementGuid>aacdf7e3-872b-4c82-8284-030d29b179fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>445be066-bf5f-4fd7-9a7b-ad5a878a0bae</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>f2368e00-968d-4f1f-abac-6eb83e22aa1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='transaksiKas']/section/div[2]/div/div/button</value>
-      <webElementGuid>0b3c05a5-0ea0-4081-ab35-39f4a42c2220</webElementGuid>
+      <value>//div[@id='__BVID__802___BV_modal_body_']/span/form/div/button[2]</value>
+      <webElementGuid>f7dbeeda-d070-45d3-8f78-d9626bd721fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::button[1]</value>
-      <webElementGuid>234d8a6a-52d1-48c7-8285-47db8ed57237</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::button[1]</value>
+      <webElementGuid>1294698b-ea81-4ff9-95f7-dc364c032a30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[2]</value>
-      <webElementGuid>81285561-01b5-4294-be73-0f798b2b8c52</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal'])[1]/preceding::button[1]</value>
-      <webElementGuid>3ef19c5a-8b30-48c2-b438-5866f41573df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::button[2]</value>
+      <webElementGuid>f09786e3-4cde-4aad-bf22-eb860672d556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/button</value>
-      <webElementGuid>42ac12dd-0b5b-44ae-895e-e9482516fd09</webElementGuid>
+      <value>//form/div/button[2]</value>
+      <webElementGuid>e8c9eed2-a833-40a3-90cf-de727425aa20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Tambah Data' or . = 'Tambah Data')]</value>
-      <webElementGuid>21f547d2-4b91-432f-a404-b081df106e79</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = ' Setujui ' or . = ' Setujui ')]</value>
+      <webElementGuid>16660abb-306f-4a48-817f-922f8321dbc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataPIC']/section/div[2]/div/div/button</value>
-      <webElementGuid>3a521f18-e15b-42c8-ab7e-7fa669311b77</webElementGuid>
+      <value>//div[@id='__BVID__496___BV_modal_body_']/span/form/div/button[2]</value>
+      <webElementGuid>9a57b06b-87b7-40f8-88bd-affe7ac52ff0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode PIC'])[1]/preceding::button[1]</value>
-      <webElementGuid>5bbdbb93-23df-4c98-88fd-fcb9fed4cdf6</webElementGuid>
+      <value>//div[@id='__BVID__596___BV_modal_body_']/span/form/div/button[2]</value>
+      <webElementGuid>d3abd9fa-79e2-4423-9f4f-ecd5a35bf7ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

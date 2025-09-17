@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Tambah Data</name>
+   <name>span_Approval Transaksi Kas</name>
    <tag></tag>
-   <elementGuidId>c789db29-7aeb-4d4c-ad81-15447acb6600</elementGuidId>
+   <elementGuidId>c8ebc8b9-4f04-4b5a-ab61-18f22c0b29ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-success.btn-success.btn-sm > span.d-none.d-sm-inline</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='lpjUmpOperasional']/section/div[2]/div/div/button/span</value>
+         <value>//ul[@id='__BVID__302']/li[3]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,142 +23,150 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3881702d-a6f2-4efb-b8c2-e6b670609011</webElementGuid>
+      <webElementGuid>218422e3-51d3-4e7b-8f66-95e595aea882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>d-none d-sm-inline</value>
-      <webElementGuid>a12564aa-7f0a-4824-9b62-e13ecd07f790</webElementGuid>
+      <value>menu-title text-truncate</value>
+      <webElementGuid>f0205969-9d3f-4a31-87dc-3d0cd13ef2d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tambah Data</value>
-      <webElementGuid>060aaf16-80c3-4db6-832f-b54f12a70b3a</webElementGuid>
+      <value>Approval Transaksi Kas</value>
+      <webElementGuid>f191e9fe-af36-49c8-a067-7ac3c634a053</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lpjUmpOperasional&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;custom-search d-flex justify-content-between mb-2&quot;]/button[@class=&quot;btn button-small-success btn-success btn-sm&quot;]/span[@class=&quot;d-none d-sm-inline&quot;]</value>
-      <webElementGuid>7780e966-6a5b-4e20-b1a9-6ee9322de774</webElementGuid>
+      <value>id(&quot;__BVID__302&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>4fe94ab4-2719-4939-8e30-8b9ced997732</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='lpjUmpOperasional']/section/div[2]/div/div/button/span</value>
-      <webElementGuid>5e2c94e2-fe32-4a4a-8db7-612dc497022d</webElementGuid>
+      <value>//ul[@id='__BVID__302']/li[3]/a/span</value>
+      <webElementGuid>a0665526-af8e-43ba-8a90-05ca6d506424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::span[1]</value>
-      <webElementGuid>efa42fae-45e8-4d1f-ac33-acf2dc2d8180</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[1]/following::span[1]</value>
+      <webElementGuid>d1824ba5-5fc0-47e2-b6ef-ab6febf24ae2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[2]</value>
-      <webElementGuid>7a0a4533-52b8-4b9a-9ede-4196b8ed0fe5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Modal Kerja'])[1]/following::span[2]</value>
+      <webElementGuid>14e8c972-6128-443f-a256-45117bf12eec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal'])[1]/preceding::span[1]</value>
-      <webElementGuid>312a8440-4f85-4744-8886-fd7d3d27776b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jurnal Balik'])[1]/preceding::span[1]</value>
+      <webElementGuid>791115b0-4f40-4f6f-87e5-8b36934411a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Bukti Jurnal'])[1]/preceding::span[1]</value>
-      <webElementGuid>dc96aa70-ef51-4e72-a941-939935e7e13e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jurnal Manual'])[1]/preceding::span[2]</value>
+      <webElementGuid>a88a9f01-a770-4221-9a5c-4b5245c43c30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tambah Data']/parent::*</value>
-      <webElementGuid>c78506f2-de62-44dd-8bfc-d954cec45ee0</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Approval Transaksi Kas']/parent::*</value>
+      <webElementGuid>4a198444-c874-4643-b0e6-4fc069fd8dad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/button/span</value>
-      <webElementGuid>7c2af375-98c2-48c4-b4b6-4f8152547a85</webElementGuid>
+      <value>//li[9]/ul/li[3]/a/span</value>
+      <webElementGuid>50d4eecd-e907-44e1-b4fe-4d7d6763006b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Tambah Data' or . = 'Tambah Data')]</value>
-      <webElementGuid>12da6442-61ef-420a-8c3d-2f000e3abec5</webElementGuid>
+      <value>//span[(text() = 'Approval Transaksi Kas' or . = 'Approval Transaksi Kas')]</value>
+      <webElementGuid>d8ced5b5-5ae6-4bc0-bb3f-f2fdd9be7e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataLembaga']/section/div[2]/div/div/button/span</value>
-      <webElementGuid>13bd4f99-f99f-4b52-946a-5836f8bb7ece</webElementGuid>
+      <value>//ul[@id='__BVID__301']/li[4]/a/span</value>
+      <webElementGuid>d98de2bd-0977-42bd-8668-dda061154d38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Lembaga'])[1]/preceding::span[1]</value>
-      <webElementGuid>d60355cf-1e61-4224-a092-78ca44a7a2ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jurnal Manual'])[1]/following::span[1]</value>
+      <webElementGuid>e3b931c4-bce9-42d5-a790-0892390e2e80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Lembaga'])[1]/preceding::span[1]</value>
-      <webElementGuid>af9a17c8-381a-4ee3-abf1-8e07d4aca405</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[1]/following::span[2]</value>
+      <webElementGuid>b53c5f0e-08a1-4c79-abe9-8df661bedac6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LPJ UMP Operasional'])[1]/preceding::span[2]</value>
+      <webElementGuid>05a437df-468c-495f-8938-287a574de041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/ul/li[4]/a/span</value>
+      <webElementGuid>140350e1-9cf5-48a7-89a7-a80aa6a1394d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataPIC']/section/div[2]/div/div/button/span</value>
-      <webElementGuid>df4c4b5f-0f73-4225-b5dc-25e2080f6a12</webElementGuid>
+      <value>//ul[@id='__BVID__266']/li[4]/a/span</value>
+      <webElementGuid>9d463c62-0cdd-4cf3-a82d-cf22227f73ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode PIC'])[1]/preceding::span[1]</value>
-      <webElementGuid>50599143-cdd3-440e-ad98-fb7acb861c28</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Ktp'])[1]/preceding::span[1]</value>
-      <webElementGuid>760c7b85-f755-40c4-8d72-851c5ef3f690</webElementGuid>
+      <value>//ul[@id='__BVID__302']/li[4]/a/span</value>
+      <webElementGuid>e241803c-67c2-4292-a419-9371c23109a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

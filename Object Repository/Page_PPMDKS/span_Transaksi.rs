@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Transaksi</name>
+   <tag></tag>
+   <elementGuidId>1dcb8c76-b640-48c4-a37e-da992e76142e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/ul/ul/li[9]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7e2abac0-394b-4c65-b707-3f1da64a973d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-title text-truncate</value>
+      <webElementGuid>5922aa07-0369-45dd-b2f2-44a17efe0e28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaksi</value>
+      <webElementGuid>56a73126-465f-4531-a2a1-09d186f49748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-light&quot;]/ul[@class=&quot;ps-container main-menu-content scroll-area ps&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>a4baae06-8af8-47ff-9f1c-72e7d75a6e97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/ul/ul/li[9]/a/span</value>
+      <webElementGuid>935af0c2-1ae9-41e2-9abe-860de49a6cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target PPM - DKS'])[1]/following::span[1]</value>
+      <webElementGuid>c43f86e8-5810-4cb8-81b2-8fa211803dfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas Form Manual'])[1]/following::span[2]</value>
+      <webElementGuid>cc9b4ae8-7aad-445b-bf99-3239aa7970fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Modal Kerja'])[1]/preceding::span[1]</value>
+      <webElementGuid>34f88258-2419-44d5-b55e-f841043aaf1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[1]/preceding::span[2]</value>
+      <webElementGuid>6126a2c5-bb6a-49e9-bdd3-6e14d526ab0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transaksi']/parent::*</value>
+      <webElementGuid>76c51dd9-a6ed-44c1-ae2c-35d69661945b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/a/span</value>
+      <webElementGuid>e2f3b165-da86-485f-8be8-61a1d17692cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Transaksi' or . = 'Transaksi')]</value>
+      <webElementGuid>4654cb63-5364-46a8-ae73-550bfb02f0f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

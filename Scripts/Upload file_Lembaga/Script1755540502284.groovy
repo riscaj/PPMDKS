@@ -30,7 +30,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/span_Data Lembaga'))
+WebUI.delay(35)
+
+TestObject btnDataLembaga = new TestObject()
+btnDataLembaga.addProperty('xpath', ConditionType.EQUALS, "//a[@href='/data-lembaga' and contains(.,'Data Lembaga')]")
+
+WebUI.click(btnDataLembaga)
+
+WebUI.delay(35)
 
 //Click Tambah Data
 TestObject btnTambahData = new TestObject('dynamic_button_TambahData')
@@ -48,13 +55,28 @@ TestObject pilihan = new TestObject('option_JenisLembaga')
 pilihan.addProperty('xpath', ConditionType.EQUALS, "//li[contains(@id,'vs5__option') and normalize-space(text())='" + opsi + "']")
 WebUI.click(pilihan)
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__nama_lembaga'), 'New Lembaga4')
+//Nama Lembaga
+TestObject namalembaga = new TestObject('namalembaga')
+namalembaga.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lembaga\']')
+WebUI.waitForElementVisible(namalembaga, 10)
+WebUI.setText(namalembaga, 'Lembaga Baru 1')
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/textarea_Alamat Lembaga_alamat'), 'Alamat new lembaga')
+//Alamat Lembaga
+TestObject alamatField = new TestObject()
+alamatField.addProperty("xpath", ConditionType.EQUALS, "//label[normalize-space()='Alamat Lembaga']/following::textarea[1]")
+WebUI.setText(alamatField, "Kantor Pusat")
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__rt'), '1')
+//Input RT
+TestObject inputRT = new TestObject('dynamicRT')
+inputRT.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rt\']')
+WebUI.waitForElementVisible(inputRT, 10)
+WebUI.setText(inputRT, '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__rw'), '2')
+//Input RW
+TestObject inputRW = new TestObject('dynamicRW')
+inputRW.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rw\']')
+WebUI.waitForElementVisible(inputRW, 10)
+WebUI.setText(inputRW, '5')
 
 //Select Provinsi
 TestObject dropdownProvinsiLembaga = new TestObject('dropdownProvinsiLembaga')
@@ -92,7 +114,11 @@ TestObject pilihan4 = new TestObject('option_KelLembaga')
 pilihan4.addProperty('xpath', ConditionType.EQUALS, "//li[contains(@id,'vs9__option') and normalize-space(text())='" + opsi4 + "']")
 WebUI.click(pilihan4)
 
-WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__nomor_telepon'), '6788787812')
+TestObject nomortlp = new TestObject('nomortlp')
+nomortlp.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_telepon\']')
+WebUI.waitForElementVisible(nomortlp, 10)
+WebUI.setText(nomortlp, '6788787812')
+
 
 //Upload File Lembaga
 TestObject uploadFileInput = new TestObject()

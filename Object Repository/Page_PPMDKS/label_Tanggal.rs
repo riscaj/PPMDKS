@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Tambah Data</name>
+   <name>label_Tanggal</name>
    <tag></tag>
-   <elementGuidId>acf08adc-dd85-4b94-bcd3-f823fa8fe295</elementGuidId>
+   <elementGuidId>43f627b3-1537-4e4a-80f9-934507c85125</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-success.btn-success.btn-sm</value>
+         <value>#__BVID__712__value_</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//label[@id='__BVID__712__value_']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,111 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>970f4f7f-5790-4794-9ec1-26194bb54fcc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6a4ae052-32a0-4c41-a2e4-60486f2fbc33</webElementGuid>
+      <value>label</value>
+      <webElementGuid>4c1363aa-34fe-4d1f-99d6-bb9414eaa226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn button-small-success btn-success btn-sm</value>
-      <webElementGuid>bf45cba2-8135-4ab2-85e7-8146d8f90728</webElementGuid>
+      <value>form-control text-break text-wrap bg-transparent text-muted</value>
+      <webElementGuid>a89249e5-7e9a-4229-b17f-25512b13902a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__712__value_</value>
+      <webElementGuid>b8ca3ad0-e998-40aa-96d9-094d056a9978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__BVID__712</value>
+      <webElementGuid>c2727298-f704-4190-81e6-4862c4389aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tambah Data</value>
-      <webElementGuid>605a044c-24a6-400f-b37d-1ba784e3b5c3</webElementGuid>
+      <value>Tanggal</value>
+      <webElementGuid>c7363038-dc78-4ef9-9783-3ef45ab200cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaksiKas&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;custom-search d-flex justify-content-between mb-2&quot;]/button[@class=&quot;btn button-small-success btn-success btn-sm&quot;]</value>
-      <webElementGuid>996c0f9e-c9ba-4e27-abf8-2ab4c6779aa0</webElementGuid>
+      <value>id(&quot;__BVID__712__value_&quot;)</value>
+      <webElementGuid>5896fa4e-c7b9-4b67-8ab5-9ad62aa19009</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>445be066-bf5f-4fd7-9a7b-ad5a878a0bae</webElementGuid>
+      <value>//label[@id='__BVID__712__value_']</value>
+      <webElementGuid>1e3761ba-9b2f-4ed2-afdb-27ad512543ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='transaksiKas']/section/div[2]/div/div/button</value>
-      <webElementGuid>0b3c05a5-0ea0-4081-ab35-39f4a42c2220</webElementGuid>
+      <value>//div[@id='__BVID__712__outer_']/label</value>
+      <webElementGuid>7d48549f-5f07-410b-8ed3-21cd94049159</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::button[1]</value>
-      <webElementGuid>234d8a6a-52d1-48c7-8285-47db8ed57237</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::label[1]</value>
+      <webElementGuid>bfb933db-3965-4c57-8eba-e1063ae163a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[2]</value>
-      <webElementGuid>81285561-01b5-4294-be73-0f798b2b8c52</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal'])[1]/preceding::button[1]</value>
-      <webElementGuid>3ef19c5a-8b30-48c2-b438-5866f41573df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::label[1]</value>
+      <webElementGuid>0878d5d6-7ca5-48ea-a7ff-2002f185eda8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/button</value>
-      <webElementGuid>42ac12dd-0b5b-44ae-895e-e9482516fd09</webElementGuid>
+      <value>//div/div/label</value>
+      <webElementGuid>7bce8809-2cb3-485f-a45f-b5539b8e3567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Tambah Data' or . = 'Tambah Data')]</value>
-      <webElementGuid>21f547d2-4b91-432f-a404-b081df106e79</webElementGuid>
+      <value>//label[@id = '__BVID__712__value_' and (text() = 'Tanggal' or . = 'Tanggal')]</value>
+      <webElementGuid>77d839e3-3846-44a6-a901-d1d49fe7f353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='__BVID__513__value_']</value>
+      <webElementGuid>f4e047a4-3f88-4b7c-9a95-a5ac460100cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dataPIC']/section/div[2]/div/div/button</value>
-      <webElementGuid>3a521f18-e15b-42c8-ab7e-7fa669311b77</webElementGuid>
+      <value>//div[@id='__BVID__513__outer_']/label</value>
+      <webElementGuid>89854dbb-e502-4dd9-b5ec-a85d4ff3790a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode PIC'])[1]/preceding::button[1]</value>
-      <webElementGuid>5bbdbb93-23df-4c98-88fd-fcb9fed4cdf6</webElementGuid>
+      <value>//label[@id = '__BVID__513__value_' and (text() = 'Tanggal' or . = 'Tanggal')]</value>
+      <webElementGuid>59629c6a-9029-4850-b419-51c41513c5ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

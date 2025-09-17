@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Simpan</name>
+   <tag></tag>
+   <elementGuidId>b8eeb404-8232-42cf-b5ea-1c36407d96bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.button-small-filter.btn-success > span.d-none.d-sm-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-simulasi___BV_modal_body_']/div/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d0e2b7bf-1f51-4b0e-be60-0c22e0d0756a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-sm-inline</value>
+      <webElementGuid>57a7c570-08a2-4231-ac89-57dd2b1da315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simpan</value>
+      <webElementGuid>ba851f33-60ca-489a-bec5-bf33cd6b8740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-simulasi___BV_modal_body_&quot;)/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]/span[@class=&quot;d-none d-sm-inline&quot;]</value>
+      <webElementGuid>ffa8ed24-f7d4-46e4-8260-80375299468c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-simulasi___BV_modal_body_']/div/button[2]/span</value>
+      <webElementGuid>4bce2d79-32d3-44ce-a7bb-5ecfe00a0084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[2]/following::span[1]</value>
+      <webElementGuid>d3a63068-8455-45bf-b5b5-339155fab6f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uang Muka Pembayaran - Operasional'])[1]/following::span[2]</value>
+      <webElementGuid>e73073d1-7723-467f-b72a-4268e4516556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>38476475-68eb-4fd6-920d-bba81ff70928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>52c10726-0091-4cce-9e3b-681de98bfcc7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

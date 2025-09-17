@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pelaporan</name>
+   <tag></tag>
+   <elementGuidId>797d1179-a98c-4546-9479-62b2495f8d9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/ul/ul/li[10]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d35e26c5-f864-4dfe-a6a8-d08a7dd44688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-title text-truncate</value>
+      <webElementGuid>1b9cf1ad-f680-489d-8f59-6adb4b10ca49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pelaporan</value>
+      <webElementGuid>353880c2-cb27-45c4-bbc3-42390afea100</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-light&quot;]/ul[@class=&quot;ps-container main-menu-content scroll-area ps ps--active-y&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>96b3c354-d9e3-49b0-9c2e-7416ed78f2e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/ul/ul/li[10]/a/span</value>
+      <webElementGuid>1f965658-6dff-4dfb-b49f-2fc76dc0dc6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval LPJ UMP Operasional'])[1]/following::span[1]</value>
+      <webElementGuid>8d805e43-3a90-4a4e-abab-8e2f5b0952eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LPJ UMP Operasional'])[1]/following::span[2]</value>
+      <webElementGuid>0a03fd82-ad0d-4012-be22-483a2fdef4d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan DKS'])[1]/preceding::span[1]</value>
+      <webElementGuid>835a0846-dbba-447f-8a81-ac4741b1b500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar PIC Bantuan'])[1]/preceding::span[2]</value>
+      <webElementGuid>29622554-4746-4e4f-a1eb-8b294011d45e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pelaporan']/parent::*</value>
+      <webElementGuid>55f27597-bf66-417e-8e6b-dd960369366d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/a/span</value>
+      <webElementGuid>1a1aff65-c6e2-4831-ba3d-edc8aa37e01b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pelaporan' or . = 'Pelaporan')]</value>
+      <webElementGuid>ce312587-6f61-4477-bcac-216b87d3395b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

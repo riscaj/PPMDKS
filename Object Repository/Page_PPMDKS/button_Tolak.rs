@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Tambah Data</name>
+   <name>button_Tolak</name>
    <tag></tag>
-   <elementGuidId>acf08adc-dd85-4b94-bcd3-f823fa8fe295</elementGuidId>
+   <elementGuidId>5a378f90-90d6-4322-a361-d1ee6728090e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-success.btn-success.btn-sm</value>
+         <value>button.btn.mr-2.btn-danger.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>970f4f7f-5790-4794-9ec1-26194bb54fcc</webElementGuid>
+      <webElementGuid>a09b4a1a-6a9f-41fe-9fd6-4c3628f44e99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,102 +31,110 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a4ae052-32a0-4c41-a2e4-60486f2fbc33</webElementGuid>
+      <webElementGuid>6a2a5b7b-6ade-4664-a9f6-a575318b3c66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn button-small-success btn-success btn-sm</value>
-      <webElementGuid>bf45cba2-8135-4ab2-85e7-8146d8f90728</webElementGuid>
+      <value>btn mr-2 btn-danger btn-sm</value>
+      <webElementGuid>d5cf8b89-dda3-4682-b76e-a9547215940b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tambah Data</value>
-      <webElementGuid>605a044c-24a6-400f-b37d-1ba784e3b5c3</webElementGuid>
+      <value> Tolak </value>
+      <webElementGuid>aebc1882-2bd1-47c5-8cdf-b910a2e3ec2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaksiKas&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;custom-search d-flex justify-content-between mb-2&quot;]/button[@class=&quot;btn button-small-success btn-success btn-sm&quot;]</value>
-      <webElementGuid>996c0f9e-c9ba-4e27-abf8-2ab4c6779aa0</webElementGuid>
+      <value>id(&quot;approveTransaksiKas&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text&quot;]/div[@class=&quot;d-flex justify-content-end mt-3&quot;]/button[@class=&quot;btn mr-2 btn-danger btn-sm&quot;]</value>
+      <webElementGuid>057e1b8e-da80-4f08-abc5-f3334063e3b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>445be066-bf5f-4fd7-9a7b-ad5a878a0bae</webElementGuid>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>51f38369-ca51-4763-9f13-163a6d947342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='transaksiKas']/section/div[2]/div/div/button</value>
-      <webElementGuid>0b3c05a5-0ea0-4081-ab35-39f4a42c2220</webElementGuid>
+      <value>//div[@id='approveTransaksiKas']/section/div/div[2]/p[2]/div[2]/button</value>
+      <webElementGuid>b1da4707-5dd2-4694-bd8f-f2c4aa584653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::button[1]</value>
-      <webElementGuid>234d8a6a-52d1-48c7-8285-47db8ed57237</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 10.000'])[2]/following::button[1]</value>
+      <webElementGuid>c0ae47d7-8fd9-40f7-a711-4da8a8a6da4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[2]</value>
-      <webElementGuid>81285561-01b5-4294-be73-0f798b2b8c52</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 0'])[2]/following::button[1]</value>
+      <webElementGuid>c9a7c4be-a89a-44cb-a263-7b3e5581c45f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal'])[1]/preceding::button[1]</value>
-      <webElementGuid>3ef19c5a-8b30-48c2-b438-5866f41573df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setujui'])[1]/preceding::button[1]</value>
+      <webElementGuid>23fd5c4b-aa88-4a9d-8598-6cf87a788e7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Unit'])[1]/preceding::button[2]</value>
+      <webElementGuid>85855acb-1008-48e3-8ecc-31e62b7ebf9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tolak']/parent::*</value>
+      <webElementGuid>cf8fab0b-77af-4044-b217-94a85c74cb48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/button</value>
-      <webElementGuid>42ac12dd-0b5b-44ae-895e-e9482516fd09</webElementGuid>
+      <value>//p[2]/div[2]/button</value>
+      <webElementGuid>3814d61f-b757-4ac6-aee0-e3172c907ab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Tambah Data' or . = 'Tambah Data')]</value>
-      <webElementGuid>21f547d2-4b91-432f-a404-b081df106e79</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='dataPIC']/section/div[2]/div/div/button</value>
-      <webElementGuid>3a521f18-e15b-42c8-ab7e-7fa669311b77</webElementGuid>
+      <value>//button[@type = 'button' and (text() = ' Tolak ' or . = ' Tolak ')]</value>
+      <webElementGuid>a785a215-737c-4075-9d34-353ff7486551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode PIC'])[1]/preceding::button[1]</value>
-      <webElementGuid>5bbdbb93-23df-4c98-88fd-fcb9fed4cdf6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 3.000.000'])[2]/following::button[1]</value>
+      <webElementGuid>e9e6cc25-14e0-4abc-8bf6-00fe9f72744f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

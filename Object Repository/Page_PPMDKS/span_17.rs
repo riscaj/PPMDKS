@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_17</name>
+   <tag></tag>
+   <elementGuidId>758ec794-daf7-4aa4-80cd-e8d854be7946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.btn.border-0.rounded-circle.text-nowrap.focus.btn-outline-primary.font-weight-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__BVID__714__cell-2025-09-17_']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e144d8cc-37cb-460d-a738-5de8b14906b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn border-0 rounded-circle text-nowrap focus btn-outline-primary font-weight-bold</value>
+      <webElementGuid>006e10fa-ba83-44fe-9f47-ab59d99b5b1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>17</value>
+      <webElementGuid>c82035c5-7c26-4677-b8a8-ed103eea1fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__714__cell-2025-09-17_&quot;)/span[@class=&quot;btn border-0 rounded-circle text-nowrap focus btn-outline-primary font-weight-bold&quot;]</value>
+      <webElementGuid>ef6cd813-3b4d-4ff3-a9c4-6b8c42418be6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__714__cell-2025-09-17_']/span</value>
+      <webElementGuid>2a6044ce-b10b-4a0a-b384-731da5bc9a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[18]</value>
+      <webElementGuid>5e739730-0827-4425-bb2a-0fca6c545d7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[18]</value>
+      <webElementGuid>a60c479b-db14-41bd-9329-daa524fa3a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cursor keys to navigate calendar dates'])[1]/preceding::span[18]</value>
+      <webElementGuid>3b93913c-ff73-479d-8e66-25ffa5f9cb8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal'])[1]/preceding::span[18]</value>
+      <webElementGuid>d76cbb81-e328-46ad-9c10-a3e65fd2c2ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='17']/parent::*</value>
+      <webElementGuid>89d5993c-5346-48e7-ac99-dd56b832c386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/span</value>
+      <webElementGuid>c7193215-6562-44b4-a427-a36ec37ca57c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '17' or . = '17')]</value>
+      <webElementGuid>47598c7b-2d15-4abd-a727-f7c00130cb20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

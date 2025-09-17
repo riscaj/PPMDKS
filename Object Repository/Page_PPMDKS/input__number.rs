@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_login-username</name>
+   <name>input__number</name>
    <tag></tag>
-   <elementGuidId>fb49a4e9-1e23-4b13-8b7c-5d28c46d1136</elementGuidId>
+   <elementGuidId>5e3af10a-aed4-4610-b671-ae5c8a378237</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-username</value>
+         <value>#number</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-username']</value>
+         <value>//input[@id='number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1c4e033a-66ef-4cad-8766-838a8b842194</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>be4604fa-d844-4994-9b09-2d1076b24435</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>0bde7a33-fe20-47d4-b1a3-55c3a36f3647</webElementGuid>
+      <webElementGuid>8644b7db-1977-4fe9-a03f-dd04e4fc7944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +31,23 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e243126c-1bc9-474b-935f-7f4959d67fb7</webElementGuid>
+      <webElementGuid>b097cff9-2c6e-4589-92cb-dbfb6a4ccfc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>b8b1ab58-8c17-4d6a-b84d-dfc77b950d3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>aac6bbea-9e7c-4a43-95dd-0315bad05d5d</webElementGuid>
+      <value>Nominal</value>
+      <webElementGuid>771538c5-bade-4747-a4f6-966cc003d229</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +55,46 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a8d7ba87-cf0e-42ac-a87f-e3f48997b923</webElementGuid>
+      <webElementGuid>6fcb2278-8eef-4d7d-b586-f7f574b5353a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-username&quot;)</value>
-      <webElementGuid>9ba21f13-0cb4-4f18-8c9a-0f8b1c70eb8d</webElementGuid>
+      <value>id(&quot;number&quot;)</value>
+      <webElementGuid>c431d107-fda9-4588-abcf-2aab543ce483</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-username']</value>
-      <webElementGuid>00abd7c1-c0c0-4c56-9f46-290d8cdd792f</webElementGuid>
+      <value>//input[@id='number']</value>
+      <webElementGuid>3729f7b1-c938-4fe0-8ef8-6066a0e1fdb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__48']/div/span/input</value>
-      <webElementGuid>42f2e3aa-1b1b-488c-8f4d-a26dac6b9f2f</webElementGuid>
+      <value>//fieldset[@id='__BVID__522']/div/span/input</value>
+      <webElementGuid>f4452b8a-5a6f-4663-aee7-010ad704a760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9c76c22a-5b30-41fb-9623-cd9bf6486d8c</webElementGuid>
+      <value>//span/input</value>
+      <webElementGuid>d6c32b8f-2da7-48a5-a1fe-1f5abb73cefe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login-username' and @name = 'login-username' and @type = 'text' and @placeholder = 'Username']</value>
-      <webElementGuid>3fa601b7-7045-4261-a2d4-5411c22efb36</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'number' and @placeholder = 'Nominal']</value>
+      <webElementGuid>c5e10bde-9b47-4983-b0c6-5da7495c22c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

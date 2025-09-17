@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Keterangan</name>
+   <tag></tag>
+   <elementGuidId>0098bb10-2445-430d-988f-1b7924de196e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__525 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__525']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>72193372-a532-4dec-a684-0911a3e43a18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keterangan </value>
+      <webElementGuid>645b455d-706e-4eae-bc56-8ff59df3466a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__525&quot;)/div[1]</value>
+      <webElementGuid>07e4a98d-ed83-4bcf-85fe-4f60ee7dc0f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__525']/div</value>
+      <webElementGuid>57d5a7f3-9aa8-4a16-ac63-1238ec9944cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No matching records found'])[1]/following::div[3]</value>
+      <webElementGuid>0f74b566-6ba1-459f-94fe-e1e11d72bf0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit'])[1]/following::div[5]</value>
+      <webElementGuid>729f938c-8fad-4c93-a7c4-ac9dab896745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::div[1]</value>
+      <webElementGuid>6730b014-85e6-4262-ba67-eb81194306e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/fieldset/div</value>
+      <webElementGuid>e8e6fa39-8713-461b-9163-c9a684f5a7ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Keterangan ' or . = 'Keterangan ')]</value>
+      <webElementGuid>17cb1004-6c8c-46fe-ad75-1950d6bcb7e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

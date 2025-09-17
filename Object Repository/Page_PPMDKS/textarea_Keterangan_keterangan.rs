@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_login-username</name>
+   <name>textarea_Keterangan_keterangan</name>
    <tag></tag>
-   <elementGuidId>fb49a4e9-1e23-4b13-8b7c-5d28c46d1136</elementGuidId>
+   <elementGuidId>50bab747-3492-48f3-9636-4500af8a358a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-username</value>
+         <value>#__BVID__527</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-username']</value>
+         <value>//textarea[@id='__BVID__527']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,40 +22,40 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>1c4e033a-66ef-4cad-8766-838a8b842194</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>be4604fa-d844-4994-9b09-2d1076b24435</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>12f3e1be-7977-4dbe-a1ee-5c717a75fa63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>0bde7a33-fe20-47d4-b1a3-55c3a36f3647</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>e243126c-1bc9-474b-935f-7f4959d67fb7</webElementGuid>
+      <value>keterangan</value>
+      <webElementGuid>cd5076a5-df9f-4713-8881-ecbd03aefb4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>aac6bbea-9e7c-4a43-95dd-0315bad05d5d</webElementGuid>
+      <value>Keterangan</value>
+      <webElementGuid>48639fdc-472a-472a-8908-d817f829d970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>c86dfa75-dde1-4534-ad31-5f991e3add04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wrap</name>
+      <type>Main</type>
+      <value>soft</value>
+      <webElementGuid>2114bd4e-2933-42ef-aa91-829ced133ce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +63,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a8d7ba87-cf0e-42ac-a87f-e3f48997b923</webElementGuid>
+      <webElementGuid>b5bdc1eb-09f3-4f4e-a024-3b2e45d21987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__527</value>
+      <webElementGuid>d51e7d88-cca9-44a0-89dd-f042abeda661</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-username&quot;)</value>
-      <webElementGuid>9ba21f13-0cb4-4f18-8c9a-0f8b1c70eb8d</webElementGuid>
+      <value>id(&quot;__BVID__527&quot;)</value>
+      <webElementGuid>397e5942-adb2-4373-a9f9-ea187ac31ecf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-username']</value>
-      <webElementGuid>00abd7c1-c0c0-4c56-9f46-290d8cdd792f</webElementGuid>
+      <value>//textarea[@id='__BVID__527']</value>
+      <webElementGuid>e6a57434-da05-4e33-811c-67bf730c6b95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__48']/div/span/input</value>
-      <webElementGuid>42f2e3aa-1b1b-488c-8f4d-a26dac6b9f2f</webElementGuid>
+      <value>//fieldset[@id='__BVID__525']/div/span/textarea</value>
+      <webElementGuid>c3c44d4d-d1a0-4cb6-bf7a-1808371f1ea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9c76c22a-5b30-41fb-9623-cd9bf6486d8c</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>285a011f-f28f-4e58-a6e1-1a82d71ff968</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login-username' and @name = 'login-username' and @type = 'text' and @placeholder = 'Username']</value>
-      <webElementGuid>3fa601b7-7045-4261-a2d4-5411c22efb36</webElementGuid>
+      <value>//textarea[@name = 'keterangan' and @placeholder = 'Keterangan' and @id = '__BVID__527']</value>
+      <webElementGuid>59dda337-a39f-4a1c-941b-af60d9b332ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.button-small-filter.mr-1.btn-danger</value>
+         <value>button.btn.mr-2.btn-secondary.btn-sm</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='reset']</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f7dc6e2a-b1d8-4004-90a4-42eeeb8b77ee</webElementGuid>
+      <webElementGuid>58478529-af59-4035-bcbb-211e9b0e9e6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>reset</value>
-      <webElementGuid>272c27cd-d40c-403b-9334-fe164bc3f187</webElementGuid>
+      <value>button</value>
+      <webElementGuid>863f7685-6747-43f8-a271-50c2a64cddfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn button-small-filter mr-1 btn-danger</value>
-      <webElementGuid>e309c0ac-1fc9-4afb-b651-8f8724afb72e</webElementGuid>
+      <value>btn mr-2 btn-secondary btn-sm</value>
+      <webElementGuid>25f6dede-8ea8-4af2-ad3e-4062977dcca3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,74 @@
       <name>text</name>
       <type>Main</type>
       <value> Batal </value>
-      <webElementGuid>f12b1c00-a73c-47f5-a3c2-027c45711930</webElementGuid>
+      <webElementGuid>432bce76-bd19-4e96-9955-b9d754327035</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pengajuan&quot;)/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;d-flex justify-content-end col-md-10&quot;]/button[@class=&quot;btn button-small-filter mr-1 btn-danger&quot;]</value>
-      <webElementGuid>cce73e55-c8ee-4ed8-861b-e73aea8d7715</webElementGuid>
+      <value>id(&quot;__BVID__596___BV_modal_body_&quot;)/span[1]/form[1]/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn mr-2 btn-secondary btn-sm&quot;]</value>
+      <webElementGuid>c61de9ed-d1ee-4ba7-a1c4-846e0f39468d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>210e2fb1-ab12-431a-b184-b92c0adec08c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__596___BV_modal_body_']/span/form/div/button</value>
+      <webElementGuid>66b52844-cb6e-4122-810a-cb7143f52725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::button[1]</value>
+      <webElementGuid>719a625b-df2c-4bb5-943b-d1e8d5f767a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[2]/preceding::button[1]</value>
+      <webElementGuid>5e53dced-daa5-4131-bba3-f4a063e6a85e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Batal']/parent::*</value>
+      <webElementGuid>40be9c30-b50b-4022-aacf-0f840e4bf52d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/button</value>
+      <webElementGuid>76e85bf4-c0f8-4528-bfcd-739ecb64d643</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Batal ' or . = ' Batal ')]</value>
+      <webElementGuid>fbe9d597-c119-4627-a4c3-6908243cd5ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -96,14 +152,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::button[1]</value>
       <webElementGuid>d5ebafd8-6fca-41e7-95a6-3676968b688a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Batal']/parent::*</value>
-      <webElementGuid>67def174-fc1f-4632-a022-dc2de9b6ace3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

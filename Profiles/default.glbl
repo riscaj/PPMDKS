@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dks.internal.trivamas.com/admin'</initValue>
+      <initValue>'https://dks-frontend-support-ppmdks-dev.apps.ocp-dev.pegadaian.co.id/admin'</initValue>
       <name>baseUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

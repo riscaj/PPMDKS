@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Filter_full-layout Loading</name>
+   <tag></tag>
+   <elementGuidId>06df6d58-065d-4b22-86a6-fa5e826b3308</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.full-layout.Loading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataPIC']/section/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fac41591-e6d2-4bd3-b952-c4496e950370</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-layout Loading</value>
+      <webElementGuid>25b9220c-5b51-4c8d-a9d6-50eabaf4b21a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataPIC&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;loading&quot;]/div[@class=&quot;full-layout Loading&quot;]</value>
+      <webElementGuid>f811b66a-307e-4d2f-9aa4-7e0a19cc7237</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataPIC']/section/div[2]/div/div/div</value>
+      <webElementGuid>e8f40215-b9b3-4866-9156-a6dc4cd68317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[4]</value>
+      <webElementGuid>731a95fb-93e6-4755-b282-90c0ca0eecc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konsolidasi'])[1]/following::div[5]</value>
+      <webElementGuid>6fd5d638-1cb8-48d7-86ff-2bab1bc6154e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::div[6]</value>
+      <webElementGuid>646eb4b4-fe8d-405d-bfc5-fb879b8490cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode'])[1]/preceding::div[8]</value>
+      <webElementGuid>4698bd68-3ff7-44f3-a148-d8d52d40479e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div/div/div</value>
+      <webElementGuid>1909d547-6418-4e60-ab3c-87faf2e08b1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

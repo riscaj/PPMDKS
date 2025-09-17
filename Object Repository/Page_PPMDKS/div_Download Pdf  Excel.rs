@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Download Pdf  Excel</name>
+   <tag></tag>
+   <elementGuidId>c696393e-c30a-42e9-8978-6c9b5b057d1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.custom-search.d-flex.justify-content-end.mb-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dataPIC']/section/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e11e4973-d3a4-4a40-ba84-3c5cb2858dc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-search d-flex justify-content-end mb-2</value>
+      <webElementGuid>f3a178cf-ae82-4786-b4d1-e869e0b808c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Pdf  Excel </value>
+      <webElementGuid>dd8ec6ac-3bd8-4a33-8edc-7ad036b8ee54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dataPIC&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;custom-search d-flex justify-content-end mb-2&quot;]</value>
+      <webElementGuid>67bdaeac-f12a-42d1-b650-436bd95278b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dataPIC']/section/div[2]/div/div</value>
+      <webElementGuid>75a86001-3972-4822-b7d5-94c27a4e32a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[3]</value>
+      <webElementGuid>de51a00a-05d8-45c5-a61a-f6684bbee5ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konsolidasi'])[1]/following::div[4]</value>
+      <webElementGuid>b6b59a47-93bd-4743-9ecb-3fb1ac0a13c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode'])[1]/preceding::div[2]</value>
+      <webElementGuid>b8533f23-db4c-4252-a95a-904b7a3006dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div/div</value>
+      <webElementGuid>9f780e2e-17f1-4ef8-b7b5-9103ec9b5a6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Download Pdf  Excel ' or . = 'Download Pdf  Excel ')]</value>
+      <webElementGuid>5b3d06b4-baae-4a03-acd1-7f9e44249ace</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

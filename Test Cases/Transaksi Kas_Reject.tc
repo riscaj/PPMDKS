@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Upload file PIC</name>
+   <name>Transaksi Kas_Reject</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>94590004-0e41-4617-8ef5-e880b2966d03</testCaseGuid>
+   <testCaseGuid>a1cf91ed-6ba7-4ddd-88e9-4cd0166dcf62</testCaseGuid>
 </TestCaseEntity>

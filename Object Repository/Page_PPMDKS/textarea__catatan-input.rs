@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_login-username</name>
+   <name>textarea__catatan-input</name>
    <tag></tag>
-   <elementGuidId>fb49a4e9-1e23-4b13-8b7c-5d28c46d1136</elementGuidId>
+   <elementGuidId>79e221a7-404b-4a51-bccc-2dd8666cd25d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-username</value>
+         <value>#catatan-input</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-username']</value>
+         <value>//textarea[@id='catatan-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,40 +22,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>1c4e033a-66ef-4cad-8766-838a8b842194</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>92f7c450-f2a3-44ae-bc24-00ec8097b882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>be4604fa-d844-4994-9b09-2d1076b24435</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>0bde7a33-fe20-47d4-b1a3-55c3a36f3647</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>e243126c-1bc9-474b-935f-7f4959d67fb7</webElementGuid>
+      <value>catatan-input</value>
+      <webElementGuid>05b55ca0-fba6-4189-a611-c162e3f28377</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>aac6bbea-9e7c-4a43-95dd-0315bad05d5d</webElementGuid>
+      <value>Catatan wajib diisi</value>
+      <webElementGuid>9db8ad83-6b90-4569-bf9b-4af3f4d1d3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wrap</name>
+      <type>Main</type>
+      <value>soft</value>
+      <webElementGuid>7e8cc7de-66fe-40f6-a018-a8a797474e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +55,62 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a8d7ba87-cf0e-42ac-a87f-e3f48997b923</webElementGuid>
+      <webElementGuid>65add0e9-7247-4236-8609-5e041d5c6c20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-username&quot;)</value>
-      <webElementGuid>9ba21f13-0cb4-4f18-8c9a-0f8b1c70eb8d</webElementGuid>
+      <value>id(&quot;catatan-input&quot;)</value>
+      <webElementGuid>f87bbd3a-3d6f-4f98-9f14-940560afe9e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-username']</value>
-      <webElementGuid>00abd7c1-c0c0-4c56-9f46-290d8cdd792f</webElementGuid>
+      <value>//textarea[@id='catatan-input']</value>
+      <webElementGuid>e51f993e-4733-4132-bc42-d7f0aaee5371</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__48']/div/span/input</value>
-      <webElementGuid>42f2e3aa-1b1b-488c-8f4d-a26dac6b9f2f</webElementGuid>
+      <value>//fieldset[@id='__BVID__810']/div/textarea</value>
+      <webElementGuid>7982bfa6-9ac3-4e3d-9c9a-536c2724f2be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9c76c22a-5b30-41fb-9623-cd9bf6486d8c</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>3b7ce229-efef-4820-a377-dce7cdc6565e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login-username' and @name = 'login-username' and @type = 'text' and @placeholder = 'Username']</value>
-      <webElementGuid>3fa601b7-7045-4261-a2d4-5411c22efb36</webElementGuid>
+      <value>//textarea[@id = 'catatan-input' and @placeholder = 'Catatan wajib diisi']</value>
+      <webElementGuid>6c2859f7-7cf8-42e4-af40-39ae6254a006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__522']/div/textarea</value>
+      <webElementGuid>c4b7fd12-6267-4f82-960a-1554e49a22b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__616']/div/textarea</value>
+      <webElementGuid>0883fff2-647d-4ff1-83ff-1ddc261d2116</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

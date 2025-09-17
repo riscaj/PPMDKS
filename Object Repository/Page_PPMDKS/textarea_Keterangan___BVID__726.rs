@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_login-username</name>
+   <name>textarea_Keterangan___BVID__726</name>
    <tag></tag>
-   <elementGuidId>fb49a4e9-1e23-4b13-8b7c-5d28c46d1136</elementGuidId>
+   <elementGuidId>a5115ab7-95be-4ff4-99a0-b86eef4216f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-username</value>
+         <value>#__BVID__726</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-username']</value>
+         <value>//textarea[@id='__BVID__726']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,40 +22,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>1c4e033a-66ef-4cad-8766-838a8b842194</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>be4604fa-d844-4994-9b09-2d1076b24435</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login-username</value>
-      <webElementGuid>0bde7a33-fe20-47d4-b1a3-55c3a36f3647</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>e243126c-1bc9-474b-935f-7f4959d67fb7</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>7c78c5ba-4d6a-445b-ae7e-cc03afbcd3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>aac6bbea-9e7c-4a43-95dd-0315bad05d5d</webElementGuid>
+      <value>Keterangan</value>
+      <webElementGuid>e9806d54-938f-4b02-a7df-4791cbf7d768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>2ee53e18-0f23-4192-9d2e-854e1fddb0d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wrap</name>
+      <type>Main</type>
+      <value>soft</value>
+      <webElementGuid>7486873a-c304-460c-88cf-547bc7bbf098</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +55,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a8d7ba87-cf0e-42ac-a87f-e3f48997b923</webElementGuid>
+      <webElementGuid>87a8fd48-0668-4517-9c81-df1e6b0480f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__726</value>
+      <webElementGuid>7c4fab6b-06bf-424f-bf4e-12aa255ec460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-username&quot;)</value>
-      <webElementGuid>9ba21f13-0cb4-4f18-8c9a-0f8b1c70eb8d</webElementGuid>
+      <value>id(&quot;__BVID__726&quot;)</value>
+      <webElementGuid>a9d5f002-5ace-4eb1-8f65-fc626b7d2494</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-username']</value>
-      <webElementGuid>00abd7c1-c0c0-4c56-9f46-290d8cdd792f</webElementGuid>
+      <value>//textarea[@id='__BVID__726']</value>
+      <webElementGuid>a6d3e896-f864-4dc8-8d8c-48158369fe0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__48']/div/span/input</value>
-      <webElementGuid>42f2e3aa-1b1b-488c-8f4d-a26dac6b9f2f</webElementGuid>
+      <value>//fieldset[@id='__BVID__725']/div/textarea</value>
+      <webElementGuid>e858cf23-cc24-440d-af35-5e6040c4cb8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9c76c22a-5b30-41fb-9623-cd9bf6486d8c</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>aac0a352-f4c8-45c4-a888-2911a3d3c1d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'login-username' and @name = 'login-username' and @type = 'text' and @placeholder = 'Username']</value>
-      <webElementGuid>3fa601b7-7045-4261-a2d4-5411c22efb36</webElementGuid>
+      <value>//textarea[@placeholder = 'Keterangan' and @id = '__BVID__726']</value>
+      <webElementGuid>bf3a111e-7ccd-41e7-94e5-afc3beacca59</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
