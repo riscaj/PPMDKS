@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>svg.feather.feather-search > circle</value>
+         <value>svg.mr-0.mr-sm-50.feather.feather-search > circle</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>circle</value>
-      <webElementGuid>f37b1150-2fc1-437e-9847-5ae4f334e317</webElementGuid>
+      <webElementGuid>2e7b6aae-1f78-485e-bbee-b59704f1c508</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>cx</name>
       <type>Main</type>
       <value>11</value>
-      <webElementGuid>15d8ff0d-377c-45a5-b2bc-ff60bf3a9545</webElementGuid>
+      <webElementGuid>069c8876-ff77-43f7-bc2f-9c7ea82f28f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>cy</name>
       <type>Main</type>
       <value>11</value>
-      <webElementGuid>f88a83cd-d2b8-416c-bc7c-84cb867d391f</webElementGuid>
+      <webElementGuid>570f8ea0-f7f6-4eea-966a-ca7a436b3e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,14 +47,14 @@
       <name>r</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>2e6068c7-303d-4e3a-931d-a02071641773</webElementGuid>
+      <webElementGuid>b3fc19c0-19cb-49fb-be10-45a43ca47559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__511&quot;)/div[1]/span[1]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-outline-primary&quot;]/svg[@class=&quot;feather feather-search&quot;]/circle[1]</value>
-      <webElementGuid>590cf312-1fff-476e-9d85-fd2be27da491</webElementGuid>
+      <value>id(&quot;dataPIC&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-md-0 mb-2 col-md-2 col-14&quot;]/button[@class=&quot;btn button-small-filter mr-1 btn-success btn-sm&quot;]/svg[@class=&quot;mr-0 mr-sm-50 feather feather-search&quot;]/circle[1]</value>
+      <webElementGuid>7beb16c1-b1b3-4ab2-9a6d-c51ce14b6765</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Simpan_1</name>
+   <tag></tag>
+   <elementGuidId>1a4307ba-4cea-4e88-8c67-8eb71cf71164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.button-small-filter.btn-success > span.d-none.d-sm-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-no-backdrop___BV_modal_body_']/div/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b088e9e9-808e-455d-b076-70c0a57b5d91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-sm-inline</value>
+      <webElementGuid>1899a4c5-4b8f-4013-a62b-fbfb1e4d673d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simpan</value>
+      <webElementGuid>78f1ce1a-90a7-404c-afed-0ae92469ee58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-no-backdrop___BV_modal_body_&quot;)/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]/span[@class=&quot;d-none d-sm-inline&quot;]</value>
+      <webElementGuid>708b89c4-0592-4c12-b49f-1aed17edeeb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-no-backdrop___BV_modal_body_']/div/button[2]/span</value>
+      <webElementGuid>a507cd12-e27b-4b80-bac9-0e427673428d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[2]/following::span[1]</value>
+      <webElementGuid>a554b405-44e6-4dec-b6ea-c7d01057ddf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kas - DKS'])[1]/following::span[2]</value>
+      <webElementGuid>ee3338e4-1ced-40f9-bb9d-e8c9faa28a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>5ae94ef1-00e3-4b86-9a88-b5916d74312a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>e1dae30f-1d1f-46c9-9ada-e7058b77f426</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

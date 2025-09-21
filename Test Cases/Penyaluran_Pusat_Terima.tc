@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Penyaluran_Pusat_Terima</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>beebab54-5e08-4fbf-952a-9b2aa3e34b02</testCaseGuid>
+</TestCaseEntity>

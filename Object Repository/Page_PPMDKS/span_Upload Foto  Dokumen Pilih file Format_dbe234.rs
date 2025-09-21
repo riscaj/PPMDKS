@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Upload Foto  Dokumen Pilih file Format_dbe234</name>
+   <tag></tag>
+   <elementGuidId>7cbe431c-c56f-47a0-aef4-3d27e89304e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__966 > div > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__966']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7c0b24c7-2566-4cf4-b005-2c27175ae922</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Foto / Dokumen *Pilih file Format file: jpeg, png, jpg, pdf. Ukuran maks: 5 MB </value>
+      <webElementGuid>97663314-6e2f-4399-9783-4897444e63ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__966&quot;)/div[1]/span[1]</value>
+      <webElementGuid>4818ccbe-2269-4944-ae7a-34c9e1304c28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__966']/div/span</value>
+      <webElementGuid>a90cdb44-40b6-452a-ba8e-8d8b89adfcb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[6]/following::span[1]</value>
+      <webElementGuid>17affd77-df92-4560-8f31-67106021629f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[14]/following::span[1]</value>
+      <webElementGuid>4f06795a-a46d-42b6-b85c-7f45f3ce4e7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/fieldset/div/span</value>
+      <webElementGuid>8e14403d-e741-4f4c-a07c-9a18b473e823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Upload Foto / Dokumen *Pilih file Format file: jpeg, png, jpg, pdf. Ukuran maks: 5 MB ' or . = 'Upload Foto / Dokumen *Pilih file Format file: jpeg, png, jpg, pdf. Ukuran maks: 5 MB ')]</value>
+      <webElementGuid>e823a960-464c-47e2-9f92-d095424d9b70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

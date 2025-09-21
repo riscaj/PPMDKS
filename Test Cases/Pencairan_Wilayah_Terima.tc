@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pencairan_Wilayah_Terima</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d50ed51-8eae-4fa9-b7cf-d627277dc99e</testCaseGuid>
+</TestCaseEntity>

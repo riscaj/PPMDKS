@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Program Kerja</name>
+   <tag></tag>
+   <elementGuidId>23bc8515-f7e9-4738-8a85-d85a959aa61b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__896 > div > div.form-check > label.form-check-label > label.label-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__896']/div/div/label/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>af83737e-2924-4604-8690-5f67bb680f94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label-small</value>
+      <webElementGuid>eb8473d1-4e56-4943-853d-cd753a8c6f10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Program Kerja </value>
+      <webElementGuid>a18d388b-81ba-466f-8ac2-0ae664d63778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__896&quot;)/div[1]/div[@class=&quot;form-check&quot;]/label[@class=&quot;form-check-label&quot;]/label[@class=&quot;label-small&quot;]</value>
+      <webElementGuid>fdb38ec4-41ef-4997-85c7-1089af6017c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__896']/div/div/label/label</value>
+      <webElementGuid>43dd4304-1c21-482e-8191-ef2ff6d3716d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inisiasi Kementrian'])[1]/following::label[2]</value>
+      <webElementGuid>710e463c-49d2-4404-8ac7-bb9ac3c01333</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[11]/following::label[4]</value>
+      <webElementGuid>c1a373c9-d076-4092-b68a-10ed8520ee9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Propsoal Masyarakat'])[1]/preceding::label[1]</value>
+      <webElementGuid>9897ce07-15c3-451d-ae34-e19a4941e8fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Program Kerja']/parent::*</value>
+      <webElementGuid>75542a02-4492-4bdc-a0f3-0203eef065ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/fieldset/div/div/label/label</value>
+      <webElementGuid>d08d4cae-9adf-4aea-b618-53551684fa84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Program Kerja ' or . = ' Program Kerja ')]</value>
+      <webElementGuid>543ee771-c4bb-493e-9c21-126c8ae5fc38</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

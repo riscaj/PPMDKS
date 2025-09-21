@@ -123,8 +123,7 @@ WebUI.click(menuApproval)
 WebUI.delay(30)
 
 TestObject btnApproveRow1 = new TestObject('btnApproveRow1')
-btnApproveRow1.addProperty("xpath", ConditionType.EQUALS,
-    "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
+btnApproveRow1.addProperty("xpath", ConditionType.EQUALS, "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
 
 WebUI.waitForElementVisible(btnApproveRow1, 10)
 WebUI.click(btnApproveRow1)

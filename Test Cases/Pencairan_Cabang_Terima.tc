@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pencairan_Cabang_Terima</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dda0a7e3-47fc-445d-a2ee-6560255ff51e</testCaseGuid>
+</TestCaseEntity>

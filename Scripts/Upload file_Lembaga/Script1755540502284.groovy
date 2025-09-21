@@ -50,7 +50,8 @@ WebUI.click(btnTambahData)
 TestObject dropdownJenisLembaga = new TestObject('dropdown_JenisLembaga')
 dropdownJenisLembaga.addProperty('xpath', ConditionType.EQUALS, "//div[@id='vs5__combobox']")
 WebUI.click(dropdownJenisLembaga)
-String opsi = "Warga Masyarakat" 
+
+String opsi = "Yayasan" 
 TestObject pilihan = new TestObject('option_JenisLembaga')
 pilihan.addProperty('xpath', ConditionType.EQUALS, "//li[contains(@id,'vs5__option') and normalize-space(text())='" + opsi + "']")
 WebUI.click(pilihan)
@@ -59,7 +60,7 @@ WebUI.click(pilihan)
 TestObject namalembaga = new TestObject('namalembaga')
 namalembaga.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lembaga\']')
 WebUI.waitForElementVisible(namalembaga, 10)
-WebUI.setText(namalembaga, 'Lembaga Baru 1')
+WebUI.setText(namalembaga, 'Yayasan Mini9')
 
 //Alamat Lembaga
 TestObject alamatField = new TestObject()
@@ -119,7 +120,6 @@ nomortlp.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_telep
 WebUI.waitForElementVisible(nomortlp, 10)
 WebUI.setText(nomortlp, '6788787812')
 
-
 //Upload File Lembaga
 TestObject uploadFileInput = new TestObject()
 uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
@@ -129,6 +129,8 @@ WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file
 TestObject simpanBtn = new TestObject()
 simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
 WebUI.click(simpanBtn)
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

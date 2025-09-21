@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>55d186bb-419b-466a-86a4-07e77b03f2d2</webElementGuid>
+      <webElementGuid>cf7e8c02-82b8-4bb7-a241-ba17faa55c2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-title text-truncate</value>
-      <webElementGuid>555523b1-b4bd-420e-95c1-2f5122a639c1</webElementGuid>
+      <webElementGuid>1b92ded0-5874-4494-ba71-382311eb69c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bagan Akun</value>
-      <webElementGuid>fc97cd11-e15a-4bd4-be5f-861115225246</webElementGuid>
+      <webElementGuid>6fd7fa51-608e-48ec-99e1-1626ff153ab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__BVID__329&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
-      <webElementGuid>5f692c55-2291-47e7-befb-8ecb7f7a4242</webElementGuid>
+      <webElementGuid>fd0e2134-902c-4bdb-8403-d16c36c98752</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='__BVID__329']/li/a/span</value>
-      <webElementGuid>05c3f869-466e-474c-9bb6-abcf7ce5835d</webElementGuid>
+      <webElementGuid>e9aaa469-4624-40f0-91ac-e603ab262d7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Akuntansi'])[1]/following::span[1]</value>
-      <webElementGuid>47de6252-3d88-4b77-94ab-c408812077a9</webElementGuid>
+      <webElementGuid>76b6511b-5b31-41f7-a422-3540d8309444</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekap Kategori Unggulan'])[1]/following::span[2]</value>
-      <webElementGuid>7c35a2de-325d-4c9a-abed-8362f942d927</webElementGuid>
+      <webElementGuid>3a9d9588-33c1-486a-8a5f-18d25db11207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Aktivitas'])[1]/preceding::span[1]</value>
-      <webElementGuid>c5693903-90fa-493e-9e57-5c92fb2c7b18</webElementGuid>
+      <webElementGuid>961fa85b-437c-4acd-ade1-0c895bb72c39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Posisi Keuangan'])[1]/preceding::span[2]</value>
-      <webElementGuid>b8ecfd2f-cb30-48b9-bd1d-aecb95feab11</webElementGuid>
+      <webElementGuid>becb4293-34ba-47f4-ada7-e6e11ebeb084</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bagan Akun']/parent::*</value>
-      <webElementGuid>67fcc30f-2859-4d31-9579-cd7295e31545</webElementGuid>
+      <webElementGuid>abbb9b1c-87ca-478e-9f13-209351c170c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/ul/li/a/span</value>
-      <webElementGuid>519f1ed6-f51c-4de7-b21d-95543d614814</webElementGuid>
+      <webElementGuid>3263b7ee-b57f-4099-b38c-6a58b60921c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Bagan Akun' or . = 'Bagan Akun')]</value>
-      <webElementGuid>c500aa7f-7842-4243-b76a-67fa51b8c8c2</webElementGuid>
+      <webElementGuid>e5ff56ea-3249-4cbe-92fe-27b5efe99da5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

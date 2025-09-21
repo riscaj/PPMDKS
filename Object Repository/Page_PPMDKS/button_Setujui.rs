@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-success.btn-sm</value>
+         <value>button.btn.button-small-filter.btn-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>288fd0f3-d1c3-4c57-b51d-3658c01511ca</webElementGuid>
+      <webElementGuid>ebe52f8e-3a27-496a-9e7f-c238e4e3681a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +31,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>130c26fd-55cd-4332-a848-833bf4c04d7d</webElementGuid>
+      <webElementGuid>0b25beb1-2e0a-46d2-965d-b5f3035abd12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-success btn-sm</value>
-      <webElementGuid>0d6891b4-aaf9-42c4-a3e9-626788d00e99</webElementGuid>
+      <value>btn button-small-filter btn-success</value>
+      <webElementGuid>e460088a-9c82-454d-9044-927b2e12207e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,106 @@
       <name>text</name>
       <type>Main</type>
       <value> Setujui </value>
-      <webElementGuid>6162a0a7-2036-45ee-a1f0-0f826df5620c</webElementGuid>
+      <webElementGuid>c40642ed-7cc8-451d-b133-2f3f4f9cf2ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;approveLpjUmpOperasional&quot;)/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text&quot;]/div[@class=&quot;d-flex justify-content-end mt-3&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]</value>
-      <webElementGuid>501e2e16-d271-43a8-ab11-300c67d2a217</webElementGuid>
+      <value>id(&quot;approvalPencairan&quot;)/div[1]/div[@class=&quot;approval-layout&quot;]/div[@class=&quot;row mb-4&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card simulasi-card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-0 col-md-12 col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;d-flex justify-content-end mt-2 col&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]</value>
+      <webElementGuid>425eb3c5-f843-4861-9e65-3463ca6c7ca5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>fac34640-661e-4270-85c1-52873f2fbd49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='approvalPencairan']/div/div/div[2]/div/div/div/div/div[2]/div/button[2]</value>
+      <webElementGuid>89b345e5-8c41-4d75-b2a4-28805a5b3ff2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/following::button[1]</value>
+      <webElementGuid>176a9344-04d8-4a21-8827-1df55aa06882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Uang Muka Pembayaran - DKS'])[1]/following::button[2]</value>
+      <webElementGuid>f60e9f1d-bae5-4bc6-a058-30e9fc60aa6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F-PPMDKS6'])[1]/preceding::button[1]</value>
+      <webElementGuid>198a6970-ae7b-47ed-a21f-111c13c83d9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BERITA ACARA SERAH TERIMA'])[1]/preceding::button[1]</value>
+      <webElementGuid>cee98220-9ff2-4831-8f72-3978ef285e1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Setujui']/parent::*</value>
+      <webElementGuid>c8f02869-c4bd-402f-babe-9a86f4f4980c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>13fd50ee-8a81-4cd4-8886-16c36d9b077e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Setujui ' or . = ' Setujui ')]</value>
+      <webElementGuid>298de5f2-bd23-44bf-b77b-1d0a5e71947d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kas - DKS'])[3]/following::button[2]</value>
+      <webElementGuid>a0e3d37d-87f2-4a4c-a6b3-8f8223487c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyaluran DKS-TPB Pekerjaan Layak dan Pertumbuhan Ekonomi'])[1]/following::button[2]</value>
+      <webElementGuid>80bf47e3-cb9d-495d-90b9-170765201aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -96,30 +184,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=', All rights Reserved'])[1]/preceding::button[1]</value>
       <webElementGuid>16e9d3e9-d30b-4174-be50-76fba11391ca</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Setujui']/parent::*</value>
-      <webElementGuid>e4c3c82a-492d-4f2c-a277-e3b9f1b1bf40</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>50868010-0339-4c76-93da-e40eed7babe0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = ' Setujui ' or . = ' Setujui ')]</value>
-      <webElementGuid>41e41510-cac4-4317-bbf2-e7b4cf7d0c11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

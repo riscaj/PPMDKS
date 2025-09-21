@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Filters FilterResetNomor PengajuanN_bb6146</name>
+   <tag></tag>
+   <elementGuidId>3026720a-553d-4ba2-b999-f71a0ffcdb46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pengajuan']/section</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>d1a55336-4ff0-4ba3-9bde-68ebed2502f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Filters FilterResetNomor PengajuanNamaNama LembagaLokasi BantuanNilai PengajuanTanggal InputAksi20250360837.DKSYOGIE DWI ANANDA Publikasi Bingkisan Hari Rayataman indah100,00019-Sep-20251</value>
+      <webElementGuid>45a4e13e-f793-4123-8d49-17bf3eeba941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pengajuan&quot;)/section[1]</value>
+      <webElementGuid>fb222696-4e03-45c4-a9c8-c1843f6d7f0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pengajuan']/section</value>
+      <webElementGuid>4d393353-498c-4b64-b0a9-a0e977455350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/following::section[1]</value>
+      <webElementGuid>bfacd791-0157-4c33-8e76-0a6c1a023773</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::section[1]</value>
+      <webElementGuid>5a76e343-5c79-46e3-bfcf-bc0f1708c0c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section</value>
+      <webElementGuid>a6f32f97-b2bf-47bf-9a92-6d2e79baf44c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = ' Filters FilterResetNomor PengajuanNamaNama LembagaLokasi BantuanNilai PengajuanTanggal InputAksi20250360837.DKSYOGIE DWI ANANDA Publikasi Bingkisan Hari Rayataman indah100,00019-Sep-20251' or . = ' Filters FilterResetNomor PengajuanNamaNama LembagaLokasi BantuanNilai PengajuanTanggal InputAksi20250360837.DKSYOGIE DWI ANANDA Publikasi Bingkisan Hari Rayataman indah100,00019-Sep-20251')]</value>
+      <webElementGuid>677ec162-ea48-4bbc-b4c4-3c8ac6247680</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

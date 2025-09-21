@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b1353c15-e9ed-43a0-8394-49077bd7d9ef</webElementGuid>
+      <webElementGuid>92098662-f00d-42c9-b9f6-a08bbd029a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>f85c94a5-88e0-46b4-8178-4829181b884d</webElementGuid>
+      <webElementGuid>72299556-1b60-4816-81eb-4a469c023a89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>28ebb51a-c6a8-4154-98d7-89b6a06de306</webElementGuid>
+      <webElementGuid>ad0d96af-3a64-4788-9d5a-fb712c60eef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center</value>
-      <webElementGuid>0ec320ea-5c49-4532-bea8-224d7844523e</webElementGuid>
+      <webElementGuid>d331dfd9-a768-496e-a92a-27510837a9e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +55,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Pelaporan</value>
-      <webElementGuid>3c2fd9a4-0c80-428c-b93e-0e2f1d92f12e</webElementGuid>
+      <webElementGuid>07788bf9-12df-4399-8ce5-9fe9b9636a1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-light&quot;]/ul[@class=&quot;ps-container main-menu-content scroll-area ps&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
-      <webElementGuid>6d1cfade-8730-46a2-8935-3a0ac59e5123</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;vertical-layout h-100 vertical-menu-modern menu-expanded navbar-sticky footer-static&quot;]/div[@class=&quot;main-menu menu-fixed menu-accordion menu-shadow expanded menu-light&quot;]/ul[@class=&quot;ps-container main-menu-content scroll-area ps ps--active-y&quot;]/ul[@class=&quot;navigation navigation-main&quot;]/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]</value>
+      <webElementGuid>61985ffa-07ec-4c1c-8611-2f286215ed59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/ul/ul/li[10]/a</value>
-      <webElementGuid>a3c72333-b888-4928-b798-f79739bb02d4</webElementGuid>
+      <webElementGuid>628490e3-82f0-4051-a287-41e31502912f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval LPJ UMP Operasional'])[1]/following::a[1]</value>
-      <webElementGuid>0984b39b-a8d4-4d79-87db-7cd688cb0476</webElementGuid>
+      <webElementGuid>24e96e88-3b12-4b16-8cbc-0f6f196a34d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LPJ UMP Operasional'])[1]/following::a[2]</value>
-      <webElementGuid>0d36a9ec-4394-4527-9213-cc5c7f35f686</webElementGuid>
+      <webElementGuid>e6d01a71-ff30-4263-9f4d-15027dda9ed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan DKS'])[1]/preceding::a[1]</value>
-      <webElementGuid>0b5dac60-9b02-4d75-aa78-761ecfb50a47</webElementGuid>
+      <webElementGuid>6b06dd9f-c5e6-48c0-a5b2-251c3579aed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
-      <webElementGuid>ec9c30e8-93c5-4fc4-a062-ade03cfd811a</webElementGuid>
+      <webElementGuid>f0cea16c-7755-4703-bae2-c2007a2895cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/a</value>
-      <webElementGuid>c92bd30a-578e-42e3-ac4e-73a46e584911</webElementGuid>
+      <webElementGuid>fba7d3e6-6262-45e3-b455-2558dc191139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Pelaporan' or . = 'Pelaporan')]</value>
-      <webElementGuid>05021827-6a90-4fb1-93dd-7081511d121e</webElementGuid>
+      <webElementGuid>51fc2995-255e-430c-8ecb-4b0b4216e33c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

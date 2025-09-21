@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Penyaluran_Pusat_Tolak_Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e32ded0-272e-4c63-a3ae-58501c9ad8a4</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#vs6__combobox > div.vs__selected-options > input.vs__search</value>
+         <value>#vs14__combobox > div.vs__selected-options > input.vs__search</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b4360391-2d93-4e1d-9ef9-8bc1e5672ef7</webElementGuid>
+      <webElementGuid>e4c60823-659f-497d-9e2d-0a8700a592fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>-- Pilih Provinsi --</value>
-      <webElementGuid>01a42b4a-fc9e-42eb-b64e-77e6174719d7</webElementGuid>
+      <value>Silahkan Pilih...</value>
+      <webElementGuid>17303866-194b-4ad8-af31-ef0efd742321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +39,23 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>6eed4c43-3eec-48fd-97cb-d3d0ac3ec8da</webElementGuid>
+      <webElementGuid>950247b1-a0c9-4340-8d8a-7139f1b50c3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>vs6__combobox</value>
-      <webElementGuid>3f814a6b-3d28-4095-9942-41dd855aea21</webElementGuid>
+      <value>vs14__combobox</value>
+      <webElementGuid>7e927829-5ce3-4bfa-85b4-76f913d9ca31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>vs6__listbox</value>
-      <webElementGuid>4f365da8-7a71-4e14-9df1-94f45b7e3731</webElementGuid>
+      <value>vs14__listbox</value>
+      <webElementGuid>43735c0e-73a6-43be-a957-98b25e15e966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>a0b73d63-352b-4ed4-8ba7-6ae14c3c94a3</webElementGuid>
+      <webElementGuid>db9f5e37-0827-4fb0-93af-47ef339dc32d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>05405e73-703d-43fe-93d7-6a3b15d0d58c</webElementGuid>
+      <webElementGuid>4e1c41cb-31a8-4503-8852-5764445f856e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,15 +79,15 @@
       <name>class</name>
       <type>Main</type>
       <value>vs__search</value>
-      <webElementGuid>7d30752b-bbe8-4381-b18c-d1a0b2346993</webElementGuid>
+      <webElementGuid>d957eb80-ffa7-4e19-837b-dfafec9db04c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vs6__combobox&quot;)/div[@class=&quot;vs__selected-options&quot;]/input[@class=&quot;vs__search&quot;]</value>
-      <webElementGuid>6eea4fa8-150a-4d70-988c-d4e0d64605cc</webElementGuid>
+      <value>id(&quot;vs14__combobox&quot;)/div[@class=&quot;vs__selected-options&quot;]/input[@class=&quot;vs__search&quot;]</value>
+      <webElementGuid>0871af40-f555-413d-8621-103985f296ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +95,87 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='search'])[2]</value>
-      <webElementGuid>847ac5dd-571b-4f10-958c-2baac3933752</webElementGuid>
+      <webElementGuid>d734143b-2325-4b47-a374-c6e77aeb2067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vs14__combobox']/div/input</value>
+      <webElementGuid>4fa96548-e3cf-49d0-a166-0e8459662654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/fieldset/div/div/div/div/input</value>
+      <webElementGuid>b5047b64-1fef-4fb9-bd2d-ef41561e171d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Silahkan Pilih...' and @type = 'search']</value>
+      <webElementGuid>3a7dd56b-94e4-40d8-bd03-a1fe628bc818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='search'])[7]</value>
+      <webElementGuid>1443cb70-f306-470a-8dfe-2071d1f2410e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vs31__combobox']/div/input</value>
+      <webElementGuid>32d64876-122a-4132-be9f-eddfaeb44a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/span/fieldset/div/div/div/div/input</value>
+      <webElementGuid>ed9f6a7f-d7d0-4d3c-b0a6-3af85d793f26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='search'])[3]</value>
+      <webElementGuid>6d5b54ea-a2a8-4a8b-9eb4-0c79796f6a80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vs16__combobox']/div/input</value>
+      <webElementGuid>e6943022-b72b-43a3-a013-c3dbf7cf77f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/div/input</value>
+      <webElementGuid>fa169429-c874-4ac6-b28d-63e4aa4f645e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '-- Pilih Provinsi --' and @type = 'search']</value>
+      <webElementGuid>05174a21-ddb0-4e30-bbe9-b670618ee396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,22 +192,6 @@
       <type>Main</type>
       <value>//span[2]/fieldset/div/div/div/div/input</value>
       <webElementGuid>6913497c-ec5b-4046-b1dc-14858055e406</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@placeholder = '-- Pilih Provinsi --' and @type = 'search']</value>
-      <webElementGuid>8df62ceb-2e45-427c-b597-69af5d2c2474</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='search'])[3]</value>
-      <webElementGuid>225f004e-5532-4fd4-99b3-24cb5ac7f6d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

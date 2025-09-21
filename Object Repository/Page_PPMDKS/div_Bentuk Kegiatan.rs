@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Bentuk Kegiatan</name>
+   <tag></tag>
+   <elementGuidId>d64d579e-1c97-488a-a639-d5be0d449546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='surveiLokasi']/span/div/div/form/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39f9c601-0aaa-4fa3-a33b-34b315b5cdc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-md-0 mb-2 col-md-6 col-xl-5</value>
+      <webElementGuid>05eb69e5-a48f-45bf-8db1-41b3a0111a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bentuk Kegiatan *</value>
+      <webElementGuid>69e03e19-2dbd-4e4f-8568-3a544d4ab678</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;surveiLokasi&quot;)/span[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-md-0 mb-2 col-md-6 col-xl-5&quot;]</value>
+      <webElementGuid>2af6636e-c3cb-47d3-ab9f-8f16ae6be548</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='surveiLokasi']/span/div/div/form/div[2]/div</value>
+      <webElementGuid>4e9b088a-375e-43d1-95c9-3c3372102031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemitraan Untuk Mencapai Tujuan'])[1]/following::div[2]</value>
+      <webElementGuid>e7767ad5-146d-409b-99a6-ffe538b20ac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perdamaian, Keadilan dan Kelembagaan Yang Tangguh'])[1]/following::div[2]</value>
+      <webElementGuid>fe3178d0-8b26-4a57-9679-58b8ec1bcbfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div</value>
+      <webElementGuid>eaa29797-0dee-4ac6-81ea-e093128237e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bentuk Kegiatan *' or . = 'Bentuk Kegiatan *')]</value>
+      <webElementGuid>d89f31b2-dbcc-4c36-94f2-c54388615216</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

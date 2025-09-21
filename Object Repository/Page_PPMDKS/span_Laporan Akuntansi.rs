@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='__BVID__327']/li[2]/a/span</value>
+         <value>//ul[@id='__BVID__291']/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>80dead9c-51b5-4df9-bae4-f301abd3c7bd</webElementGuid>
+      <webElementGuid>da875082-2eb1-4575-9543-f833e2f34e29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-title text-truncate</value>
-      <webElementGuid>03574156-50a6-44ba-ac92-9cb95a22431e</webElementGuid>
+      <webElementGuid>7dc0fc63-2640-4685-980e-dfeff0d2142d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,23 +39,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Laporan Akuntansi</value>
-      <webElementGuid>edf6decb-ccc8-49ac-b394-cebf291ec1cb</webElementGuid>
+      <webElementGuid>2478e323-a6f1-4c4f-92db-d872e6cf9e4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__327&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
-      <webElementGuid>a94b69ce-8426-49fc-8f11-ee88e9fe1dd7</webElementGuid>
+      <value>id(&quot;__BVID__291&quot;)/li[@class=&quot;nav-item has-sub&quot;]/a[@class=&quot;d-flex align-items-center&quot;]/span[@class=&quot;menu-title text-truncate&quot;]</value>
+      <webElementGuid>c4c0d693-79bb-4acb-b1ae-9c27398aedc4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='__BVID__327']/li[2]/a/span</value>
-      <webElementGuid>778bbfe3-aaf2-478f-ae1f-33fc8bae0445</webElementGuid>
+      <value>//ul[@id='__BVID__291']/li[2]/a/span</value>
+      <webElementGuid>163b6bba-8177-4642-861d-82a27b6bd38e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekap Kategori Unggulan'])[1]/following::span[1]</value>
-      <webElementGuid>cd93d80e-b1a6-4f26-ba9b-70cbf67399fe</webElementGuid>
+      <webElementGuid>326223c4-ba6a-46ae-912b-d01c29a683a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekap Penyaluran Pilar'])[1]/following::span[2]</value>
-      <webElementGuid>6f607309-ff3b-4773-a869-44144169f3cd</webElementGuid>
+      <webElementGuid>6ee01f57-6257-481c-9e7d-d98873aa77a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bagan Akun'])[1]/preceding::span[1]</value>
-      <webElementGuid>bdc4d0f4-f932-4a2e-8980-5b9232783db4</webElementGuid>
+      <webElementGuid>210e72f9-3b55-4fc5-b317-6632f137fc9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Aktivitas'])[1]/preceding::span[2]</value>
-      <webElementGuid>f977d2b2-f29e-4129-a77b-4d654541d6ca</webElementGuid>
+      <webElementGuid>e1b78417-88a0-461d-b71b-d7d71adf7058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Laporan Akuntansi']/parent::*</value>
-      <webElementGuid>db053715-93e4-4665-8322-52d0a9ba9e3d</webElementGuid>
+      <webElementGuid>3ed0da45-0a3c-4dc2-a0c2-c93106b550b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/ul/li[2]/a/span</value>
-      <webElementGuid>4e194bc7-76db-4eb1-8ffb-ad2687bc0b13</webElementGuid>
+      <webElementGuid>49044e87-3824-4e86-9056-8460a7fe9c93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,14 +111,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Laporan Akuntansi' or . = 'Laporan Akuntansi')]</value>
-      <webElementGuid>a056a784-646a-46f3-9e27-e565f7735985</webElementGuid>
+      <webElementGuid>db790189-65d1-46fa-b750-ce83111c78c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='__BVID__291']/li[2]/a/span</value>
-      <webElementGuid>f64c2d49-678c-4cbf-acba-19c32160be87</webElementGuid>
+      <value>//ul[@id='__BVID__327']/li[2]/a/span</value>
+      <webElementGuid>778bbfe3-aaf2-478f-ae1f-33fc8bae0445</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

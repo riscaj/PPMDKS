@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='modal-simulasi___BV_modal_body_']/div/button[2]/span</value>
+         <value>//div[@id='modal-no-backdrop___BV_modal_body_']/div/button[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d0e2b7bf-1f51-4b0e-be60-0c22e0d0756a</webElementGuid>
+      <webElementGuid>312684e0-b146-48e2-b00f-5e5a216245c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-none d-sm-inline</value>
-      <webElementGuid>57a7c570-08a2-4231-ac89-57dd2b1da315</webElementGuid>
+      <webElementGuid>4b9d1dd1-5eb9-43e2-988b-03781c87e747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,18 +39,106 @@
       <name>text</name>
       <type>Main</type>
       <value>Simpan</value>
-      <webElementGuid>ba851f33-60ca-489a-bec5-bf33cd6b8740</webElementGuid>
+      <webElementGuid>50ac7a5a-e721-490f-a738-84f5b4c1e08f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modal-simulasi___BV_modal_body_&quot;)/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]/span[@class=&quot;d-none d-sm-inline&quot;]</value>
-      <webElementGuid>ffa8ed24-f7d4-46e4-8260-80375299468c</webElementGuid>
+      <value>id(&quot;modal-no-backdrop___BV_modal_body_&quot;)/div[@class=&quot;d-flex justify-content-end&quot;]/button[@class=&quot;btn button-small-filter btn-success&quot;]/span[@class=&quot;d-none d-sm-inline&quot;]</value>
+      <webElementGuid>3fa6480b-8fd3-4749-98d8-4da35e41f0d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-no-backdrop___BV_modal_body_']/div/button[2]/span</value>
+      <webElementGuid>75009268-1003-4ac5-a244-3b822a368a3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::span[1]</value>
+      <webElementGuid>c87d8984-51a4-4587-bbe2-7e045b0a1e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akun Perantara (RAK) Kanwil - Cabang DKS'])[2]/following::span[2]</value>
+      <webElementGuid>32fd036e-5967-4edc-a557-4c07d4128c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
+      <webElementGuid>ba32d1f3-80f9-4866-b9cf-1f9cc4211482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>383688e0-562f-4512-9d13-4cb9ba9c36f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>1414a29b-d78e-4d23-a0bd-f58077249b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__814___BV_modal_body_']/form/span/div/button[2]/span</value>
+      <webElementGuid>0e6faabc-b518-4f4c-8894-7a1f9fcaf524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[2]</value>
+      <webElementGuid>9c8f93d6-71e2-45bb-b594-7556dac52459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/button[2]/span</value>
+      <webElementGuid>16686349-e513-4582-b152-046861782f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[2]/following::span[1]</value>
+      <webElementGuid>3e786c81-7805-465b-8bbc-8b4bd41880c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kas - DKS'])[1]/following::span[2]</value>
+      <webElementGuid>d24c2358-8b02-4b2b-9760-f0d326894bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -62,31 +150,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[2]/following::span[1]</value>
-      <webElementGuid>d3a63068-8455-45bf-b5b5-339155fab6f5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Uang Muka Pembayaran - Operasional'])[1]/following::span[2]</value>
       <webElementGuid>e73073d1-7723-467f-b72a-4268e4516556</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//button[2]/span</value>
-      <webElementGuid>38476475-68eb-4fd6-920d-bba81ff70928</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'Simpan' or . = 'Simpan')]</value>
-      <webElementGuid>52c10726-0091-4cce-9e3b-681de98bfcc7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

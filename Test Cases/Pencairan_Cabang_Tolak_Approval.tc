@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pencairan_Cabang_Tolak_Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e5e8a41-c83a-4202-b1c0-d984eaec1975</testCaseGuid>
+</TestCaseEntity>

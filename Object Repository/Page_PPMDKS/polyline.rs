@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>polyline</value>
-      <webElementGuid>42eba45d-bf33-4047-85ae-c16a80df3045</webElementGuid>
+      <webElementGuid>4d050208-9d88-421e-a8b3-022c988c3f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,14 +31,14 @@
       <name>points</name>
       <type>Main</type>
       <value>20 6 9 17 4 12</value>
-      <webElementGuid>e08447f8-5caf-48f1-baa0-5d2eabdffa04</webElementGuid>
+      <webElementGuid>61e3db6f-2044-4d78-99a8-e09564639e3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__671__row_252333&quot;)/td[5]/button[@class=&quot;btn button-small-success mr-1 btn-success btn-sm&quot;]/svg[@class=&quot;feather feather-check&quot;]/polyline[1]</value>
-      <webElementGuid>e5883b1c-b3cb-4c3a-abd3-cd02ad2d88d2</webElementGuid>
+      <value>id(&quot;refDataTable&quot;)/tbody[1]/tr[1]/td[7]/button[@class=&quot;btn btn-icon mr-1 btn-primary btn-sm&quot;]/svg[@class=&quot;feather feather-check&quot;]/polyline[1]</value>
+      <webElementGuid>6643977c-fbdc-420c-87ef-cf3ca8ae2ba3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

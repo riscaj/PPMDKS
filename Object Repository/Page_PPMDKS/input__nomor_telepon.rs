@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#__BVID__553</value>
+         <value>#__BVID__541</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='__BVID__553']</value>
+         <value>//input[@id='__BVID__541']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5050a62c-dbae-4d50-979d-ad2daf806448</webElementGuid>
+      <webElementGuid>f837c70d-e63f-4313-b06f-aebf5dd6aa0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nomor_telepon</value>
-      <webElementGuid>729b7bac-e43c-4f47-8800-b063ece97b90</webElementGuid>
+      <webElementGuid>d81593e2-573e-495e-9932-369c84142ba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,15 +39,15 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>d9cbe04b-fd73-46f7-a332-324a8fad3497</webElementGuid>
+      <webElementGuid>ed6ed357-9b29-4fed-9de1-6d7d61fff75d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>No Telepon</value>
-      <webElementGuid>b7cf065d-2a5f-4aca-ba55-b4bd6592767f</webElementGuid>
+      <value>Nomor Telepon Lokasi Bantuan</value>
+      <webElementGuid>939a4c03-3e16-40f1-8e5f-f6f9aec268db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,26 +55,106 @@
       <name>class</name>
       <type>Main</type>
       <value>input-small form-control</value>
-      <webElementGuid>3c06191a-ed63-40bc-9554-e58bf36d8eca</webElementGuid>
+      <webElementGuid>581538aa-2de5-460f-b127-f8628950812d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__553</value>
-      <webElementGuid>ba6d3c07-1712-4b31-84ff-240b99d904ee</webElementGuid>
+      <value>__BVID__541</value>
+      <webElementGuid>0f6ccceb-f79a-4846-9690-f073ff21db4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__553&quot;)</value>
-      <webElementGuid>3b6a7188-b102-4ad7-8b17-ead4902b5187</webElementGuid>
+      <value>id(&quot;__BVID__541&quot;)</value>
+      <webElementGuid>028d42a4-731c-4bae-96cb-05d2012797b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='__BVID__541']</value>
+      <webElementGuid>1e76c785-8d86-470d-99b7-f62e82b6fdf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__539']/div/span/input</value>
+      <webElementGuid>166f5604-aeec-455e-bb43-fef9058a72a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/fieldset/div/span/input</value>
+      <webElementGuid>4e9667dd-b367-4031-868d-8b165b856611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'nomor_telepon' and @type = 'number' and @placeholder = 'Nomor Telepon Lokasi Bantuan' and @id = '__BVID__541']</value>
+      <webElementGuid>610a2451-2c91-4539-a5ba-b789ccd4c1fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='__BVID__922']</value>
+      <webElementGuid>e9e5dbc1-dd47-4d38-91e0-ecc246abcc84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__920']/div/span/input</value>
+      <webElementGuid>22e964b1-03dd-4684-8408-20243861a6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'nomor_telepon' and @type = 'number' and @placeholder = 'Nomor Telepon Lokasi Bantuan' and @id = '__BVID__922']</value>
+      <webElementGuid>9c2ff643-5e8f-4bc3-932f-d4936532d988</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='__BVID__871']</value>
+      <webElementGuid>d8324ccf-0ae5-487f-9164-0b334da61184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__869']/div/span/input</value>
+      <webElementGuid>65f8d7ad-7415-4943-adad-2f441f6bfde4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'nomor_telepon' and @type = 'number' and @placeholder = 'Nomor Telepon Lokasi Bantuan' and @id = '__BVID__871']</value>
+      <webElementGuid>3be69aa0-c25b-49d3-8292-46b2317dcd9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
