@@ -76,15 +76,17 @@ dropdownPIC.addProperty('xpath', ConditionType.EQUALS, '(//div[contains(@class,\
 
 WebUI.click(dropdownPIC)
 
+WebUI.delay(40)
+
 TestObject inputPIC = new TestObject('inputPIC')
 
 inputPIC.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'search\' and contains(@class,\'vs__search\')])[1]')
 
-WebUI.setText(inputPIC, 'Marisca J7')
+WebUI.setText(inputPIC, 'Marisca J12')
 
 TestObject optionPIC = new TestObject('optionPIC')
 
-optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J7\')]')
+optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J12\')]')
 
 WebUI.waitForElementVisible(optionPIC, 30)
 
@@ -104,11 +106,11 @@ inputLembaga.addProperty('xpath', ConditionType.EQUALS, '(//input[contains(@clas
 
 WebUI.waitForElementVisible(inputLembaga, 20)
 
-WebUI.setText(inputLembaga, 'Yayasan Mini7')
+WebUI.setText(inputLembaga, 'Yayasan Mini11')
 
 TestObject optionLembaga = new TestObject('optionLembaga')
 
-optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini7\']')
+optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini11\']')
 
 WebUI.waitForElementVisible(optionLembaga, 20)
 

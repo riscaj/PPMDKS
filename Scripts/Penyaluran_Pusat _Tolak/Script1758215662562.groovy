@@ -67,6 +67,8 @@ dropdownPIC.addProperty('xpath', ConditionType.EQUALS, '(//div[contains(@class,\
 
 WebUI.click(dropdownPIC)
 
+WebUI.delay(40)
+
 TestObject inputPIC = new TestObject('inputPIC')
 inputPIC.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'search\' and contains(@class,\'vs__search\')])[1]')
 
@@ -423,9 +425,11 @@ WebUI.waitForElementVisible(btnRejectPencairan, 10)
 WebUI.click(btnRejectPencairan)
 
 TestObject btnSimpanReject = new TestObject('btnSimpanReject')
-btnSimpanReject.addProperty('xpath', ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-success')]")
+btnSimpanReject.addProperty('xpath', ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-success') and .//span[normalize-space()='Simpan']]")
 
 WebElement elementReject = Helper.findWebElement(btnSimpanReject, 10)
+
+js.executeScript("arguments[0].scrollIntoView(true);", elementReject)
 js.executeScript("arguments[0].click();", elementReject)
 
 WebUI.delay(10)

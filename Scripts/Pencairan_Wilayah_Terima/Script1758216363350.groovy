@@ -67,6 +67,8 @@ dropdownPIC.addProperty('xpath', ConditionType.EQUALS, '(//div[contains(@class,\
 
 WebUI.click(dropdownPIC)
 
+WebUI.delay(40)
+
 TestObject inputPIC = new TestObject('inputPIC')
 inputPIC.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'search\' and contains(@class,\'vs__search\')])[1]')
 

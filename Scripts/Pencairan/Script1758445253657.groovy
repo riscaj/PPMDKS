@@ -53,25 +53,26 @@ js.executeScript('arguments[0].click();', el)
 
 //Pencairan
 TestObject submenuPencairan = new TestObject('submenuPencairan')
-
 submenuPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'has-sub\') and .//span[normalize-space(text())=\'Penyaluran Cabang\']]//ul//span[normalize-space(text())=\'Pencairan\']')
 
 WebUI.click(submenuPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnRejectPencairan = new TestObject('btnRejectPencairan')
-
 btnRejectPencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'reject\' and contains(@class,\'btn-danger\')]')
 
 WebUI.waitForElementVisible(btnRejectPencairan, 10)
-
 WebUI.click(btnRejectPencairan)
 
 TestObject btnSimpanReject = new TestObject('btnSimpanReject')
-btnSimpanReject.addProperty('xpath', ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-success')]")
+btnSimpanReject.addProperty('xpath', ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-success') and .//span[normalize-space()='Simpan']]")
 
 WebElement elementReject = Helper.findWebElement(btnSimpanReject, 10)
+
+js.executeScript("arguments[0].scrollIntoView(true);", elementReject)
 js.executeScript("arguments[0].click();", elementReject)
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
