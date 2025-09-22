@@ -44,7 +44,8 @@ transaksiKas.addProperty('xpath', ConditionType.EQUALS, '//a[@href=\'/transaksi-
 
 WebUI.click(transaksiKas)
 
-WebUI.delay(50)
+WebUI.delay(40)
+
 
 //Pengajuan Transaksi Kas
 TestObject btnTambah = new TestObject('btnTambah')
@@ -71,7 +72,7 @@ WebUI.click(pilihTanggal)
 //Pilih tanggal
 TestObject tanggal = new TestObject()
 
-tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'17\']')
+tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'20\']')
 
 WebUI.waitForElementClickable(tanggal, 20)
 
@@ -114,13 +115,14 @@ btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space(t
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
+
 //Reject approval transaksi kas
 TestObject menuApproval = new TestObject().addProperty("xpath",com.kms.katalon.core.testobject.ConditionType.EQUALS, "//a[@href='/approve-transaksi-kas']")
 
 WebUI.waitForElementClickable(menuApproval, 10)
 WebUI.click(menuApproval)
 
-WebUI.delay(50)
+WebUI.delay(40)
 
 TestObject btnApproveRow1 = new TestObject('btnApproveRow1')
 btnApproveRow1.addProperty("xpath", ConditionType.EQUALS,
@@ -138,5 +140,7 @@ WebUI.waitForElementVisible(textareaCatatan, 10)
 WebUI.setText(textareaCatatan, "Belum sesuai")
 
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Tolak_1'))
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()

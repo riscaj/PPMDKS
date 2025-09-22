@@ -82,11 +82,11 @@ TestObject inputPIC = new TestObject('inputPIC')
 
 inputPIC.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'search\' and contains(@class,\'vs__search\')])[1]')
 
-WebUI.setText(inputPIC, 'Marisca J11')
+WebUI.setText(inputPIC, 'Marisca JL2')
 
 TestObject optionPIC = new TestObject('optionPIC')
 
-optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J11\')]')
+optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca JL2\')]')
 
 WebUI.waitForElementVisible(optionPIC, 30)
 
@@ -106,11 +106,11 @@ inputLembaga.addProperty('xpath', ConditionType.EQUALS, '(//input[contains(@clas
 
 WebUI.waitForElementVisible(inputLembaga, 20)
 
-WebUI.setText(inputLembaga, 'Yayasan Mini10')
+WebUI.setText(inputLembaga, 'Yayasan Angkasa2')
 
 TestObject optionLembaga = new TestObject('optionLembaga')
 
-optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini10\']')
+optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Angkasa2\']')
 
 WebUI.waitForElementVisible(optionLembaga, 20)
 
@@ -266,7 +266,7 @@ submenuVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '//li[contain
 
 WebUI.click(submenuVerifikasiBerkas)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveVerifikasiBerkas = new TestObject('btnApproveVerifikasiBerkas')
 
@@ -294,7 +294,7 @@ submenuSurveyLokasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@c
 
 WebUI.click(submenuSurveyLokasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveSurveyLokasi = new TestObject('btnApproveSurveyLokasi')
 
@@ -419,7 +419,7 @@ submenuRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@cl
 
 WebUI.click(submenuRekomendasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveRekomendasi = new TestObject('btnApproveRekomendasi')
 
@@ -441,7 +441,7 @@ submenuApprovalDeputiBisnis.addProperty('xpath', ConditionType.EQUALS, '//li[con
 
 WebUI.click(submenuApprovalDeputiBisnis)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveDeputiBisnis = new TestObject('btnApproveDeputiBisnis')
 
@@ -475,7 +475,7 @@ submenuPermohonanDana.addProperty('xpath', ConditionType.EQUALS, '//li[contains(
 
 WebUI.click(submenuPermohonanDana)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePermohonanDana = new TestObject('btnApprovePermohonanDana')
 
@@ -497,7 +497,7 @@ submenuPengirimanDana.addProperty('xpath', ConditionType.EQUALS, '//li[contains(
 
 WebUI.click(submenuPengirimanDana)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePengrimanDana = new TestObject('btnApprovePengrimanDana')
 
@@ -525,7 +525,7 @@ submenuUMP.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'ha
 
 WebUI.click(submenuUMP)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnUMP = new TestObject('btnUMP')
 
@@ -549,7 +549,7 @@ submenuPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@clas
 
 WebUI.click(submenuPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePencairan = new TestObject('btnApprovePencairan')
 
@@ -605,7 +605,7 @@ submenuApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contai
 
 WebUI.click(submenuApprovalPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnRejectAppPencairan = new TestObject('btnRejectAppPencairan')
 btnRejectAppPencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'reject\' and contains(@class,\'btn-danger\')]')
@@ -621,6 +621,6 @@ WebElement elementReject = Helper.findWebElement(btnSimpanReject, 10)
 js.executeScript("arguments[0].scrollIntoView(true);", elementReject)
 js.executeScript("arguments[0].click();", elementReject)
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()

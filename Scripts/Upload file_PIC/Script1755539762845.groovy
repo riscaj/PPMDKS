@@ -55,7 +55,7 @@ TestObject inputNIK = new TestObject('inputNIK')
 inputNIK.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_ktp\']')
 
 WebUI.waitForElementVisible(inputNIK, 10)
-WebUI.setText(inputNIK, '3277676877008010')
+WebUI.setText(inputNIK, '3277676877008014')
 
 TestObject searchBtn = new TestObject('searchBtn')
 searchBtn.addProperty('xpath', ConditionType.EQUALS, '//button[@class=\'btn btn-outline-primary\']')
@@ -71,7 +71,7 @@ TestObject namalengkap = new TestObject('namalengkap')
 namalengkap.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lengkap\']')
 
 WebUI.waitForElementVisible(namalengkap, 10)
-WebUI.setText(namalengkap, 'Marisca J13')
+WebUI.setText(namalengkap, 'Marisca JL2')
 
 TestObject tanggalLahir = new TestObject()
 tanggalLahir.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'tanggal_lahir\']')

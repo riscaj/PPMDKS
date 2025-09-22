@@ -44,7 +44,8 @@ TestObject menuLPJUMP = new TestObject().addProperty("xpath",com.kms.katalon.cor
 WebUI.waitForElementClickable(menuLPJUMP, 10)
 WebUI.click(menuLPJUMP)
 
-WebUI.delay(30)
+WebUI.delay(40)
+
 
 //Pengajuan LPJ UMP
 TestObject btnTambah = new TestObject('btnTambah')
@@ -52,10 +53,6 @@ btnTambah.addProperty('xpath', ConditionType.EQUALS, '//button[span[normalize-sp
 
 WebUI.waitForElementVisible(btnTambah, 20)
 WebUI.click(btnTambah)
-
-//WebElement element = WebUI.findWebElement(btnTambah, 10)
-//JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
-//js.executeScript('arguments[0].click();', element)
 
 TestObject btnRow = new TestObject('btnRow')
 btnRow.addProperty("xpath", ConditionType.EQUALS, "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
@@ -92,20 +89,18 @@ btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space(t
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
-// Definisikan button Simpan di modal
 TestObject btnSimpanModal = new TestObject('btnSimpanModal')
 btnSimpanModal.addProperty("xpath", ConditionType.EQUALS,
 	"//div[@id='modal-simulasi']//button[contains(@class,'btn-success')]")
 
-// Tunggu modal muncul
 WebUI.waitForElementVisible(btnSimpanModal, 10)
 
-// Kadang tombol ketutup span, jadi pakai JS click biar pasti
 WebElement element = WebUiCommonHelper.findWebElement(btnSimpanModal, 10)
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 js.executeScript("arguments[0].click();", element)
 
-WebUI.delay(30)
+WebUI.delay(40)
+
 
 //Approval LPJ UMP
 TestObject approvalLPJUMP = new TestObject().addProperty("xpath",com.kms.katalon.core.testobject.ConditionType.EQUALS, "//a[@href='/approve-lpj-ump-operasional']")
@@ -129,5 +124,6 @@ WebUI.setText(textareaCatatan, "Belum sesuai")
 
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Tolak_1'))
 
+WebUI.delay(20)
 
 WebUI.closeBrowser()

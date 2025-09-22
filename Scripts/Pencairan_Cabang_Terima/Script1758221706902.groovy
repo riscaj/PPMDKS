@@ -266,7 +266,7 @@ submenuVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '//li[contain
 
 WebUI.click(submenuVerifikasiBerkas)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveVerifikasiBerkas = new TestObject('btnApproveVerifikasiBerkas')
 
@@ -294,7 +294,7 @@ submenuSurveyLokasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@c
 
 WebUI.click(submenuSurveyLokasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveSurveyLokasi = new TestObject('btnApproveSurveyLokasi')
 
@@ -419,7 +419,7 @@ submenuRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@cl
 
 WebUI.click(submenuRekomendasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveRekomendasi = new TestObject('btnApproveRekomendasi')
 
@@ -441,7 +441,7 @@ submenuApprovalDeputiBisnis.addProperty('xpath', ConditionType.EQUALS, '//li[con
 
 WebUI.click(submenuApprovalDeputiBisnis)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveDeputiBisnis = new TestObject('btnApproveDeputiBisnis')
 
@@ -475,7 +475,7 @@ submenuPermohonanDana.addProperty('xpath', ConditionType.EQUALS, '//li[contains(
 
 WebUI.click(submenuPermohonanDana)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePermohonanDana = new TestObject('btnApprovePermohonanDana')
 
@@ -497,7 +497,7 @@ submenuPengirimanDana.addProperty('xpath', ConditionType.EQUALS, '//li[contains(
 
 WebUI.click(submenuPengirimanDana)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePengrimanDana = new TestObject('btnApprovePengrimanDana')
 
@@ -525,7 +525,7 @@ submenuUMP.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'ha
 
 WebUI.click(submenuUMP)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnUMP = new TestObject('btnUMP')
 
@@ -549,7 +549,7 @@ submenuPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@clas
 
 WebUI.click(submenuPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePencairan = new TestObject('btnApprovePencairan')
 
@@ -605,7 +605,7 @@ submenuApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contai
 
 WebUI.click(submenuApprovalPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovalPencairan = new TestObject('btnApprovalPencairan')
 

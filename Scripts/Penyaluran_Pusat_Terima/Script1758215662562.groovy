@@ -40,6 +40,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_logi
 
 WebUI.delay(30)
 
+
 //Pengajuan Pusat
 TestObject menuPenyaluranPusat = new TestObject('menuPenyaluranPusat')
 menuPenyaluranPusat.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Penyaluran Pusat\')]')
@@ -101,12 +102,12 @@ WebUI.click(optionLembaga)
 TestObject namaproposal = new TestObject('namaproposal')
 namaproposal.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomorProposal\']')
 
-WebUI.setText(namaproposal, 'Proposal cabang2')
+WebUI.setText(namaproposal, 'Proposal pusat')
 
 TestObject namakegiatan = new TestObject('namakegiatan')
 namakegiatan.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_kegiatan\']')
 
-WebUI.setText(namakegiatan, 'Penyaluran cabang2')
+WebUI.setText(namakegiatan, 'Penyaluran pusat')
 
 TestObject notlpbantuan = new TestObject('notlpbantuan')
 notlpbantuan.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_telepon\']')
@@ -224,7 +225,7 @@ submenuVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '//li[contain
 
 WebUI.click(submenuVerifikasiBerkas)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveVerifikasiBerkas = new TestObject('btnApproveVerifikasiBerkas')
 btnApproveVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '(//button[@title=\'Approve\' and contains(@class,\'btn-success\')])[1]')
@@ -248,7 +249,7 @@ submenuSurveyLokasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@c
 
 WebUI.click(submenuSurveyLokasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveSurveyLokasi = new TestObject('btnApproveSurveyLokasi')
 btnApproveSurveyLokasi.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'Approve\' and contains(@class,\'btn-success\')]')
@@ -348,7 +349,7 @@ submenuRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@cl
 
 WebUI.click(submenuRekomendasi)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApproveRekomendasi = new TestObject('btnApproveRekomendasi')
 btnApproveRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
@@ -367,27 +368,27 @@ submenuApprovalKadivKBL.addProperty('xpath', ConditionType.EQUALS, '//li[contain
 
 WebUI.click(submenuApprovalKadivKBL)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
-TestObject btnApproveDeputiBisnis = new TestObject('btnApproveDeputiBisnis')
-btnApproveDeputiBisnis.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
+TestObject btnApproveKadivKBL = new TestObject('btnApproveKadivKBL')
+btnApproveKadivKBL.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApproveDeputiBisnis, 10)
-WebUI.click(btnApproveDeputiBisnis)
+WebUI.waitForElementVisible(btnApproveKadivKBL, 10)
+WebUI.click(btnApproveKadivKBL)
 
 TestObject ketApp = new TestObject()
 ketApp.addProperty('xpath', ConditionType.EQUALS, '//textarea[@placeholder=\'Keterangan\']')
 
 WebUI.setText(ketApp, 'Approved Approval')
 
-TestObject buttonTerimaDeputiBisnis = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
+TestObject buttonTerimaKadivKBL = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
 
-WebUI.click(buttonTerimaDeputiBisnis)
+WebUI.click(buttonTerimaKadivKBL)
 
-TestObject closeBtnDeputiBisnis = new TestObject()
-closeBtnDeputiBisnis.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Tutup\']')
+TestObject closeBtnKadivKBL = new TestObject()
+closeBtnKadivKBL.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Tutup\']')
 
-WebUI.click(closeBtnDeputiBisnis)
+WebUI.click(closeBtnKadivKBL)
 
 
 //UMP
@@ -396,7 +397,7 @@ submenuUMP.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'ha
 
 WebUI.click(submenuUMP)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnUMP = new TestObject('btnUMP')
 btnUMP.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
@@ -416,7 +417,7 @@ TestObject submenuPencairan = new TestObject('submenuPencairan')
 submenuPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'has-sub\') and .//span[normalize-space(text())=\'Penyaluran Pusat\']]//ul//span[normalize-space(text())=\'Pencairan\']')
 WebUI.click(submenuPencairan)
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovePencairan = new TestObject('btnApprovePencairan')
 btnApprovePencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
@@ -508,7 +509,7 @@ TestObject submenuApprovalPencairan = new TestObject('submenuApprovalPencairan')
 submenuApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'has-sub\') and .//span[normalize-space(text())=\'Penyaluran Pusat\']]//ul//span[normalize-space(text())=\'Approval Pencairan\']')
 
 WebUI.click(submenuApprovalPencairan)
-WebUI.delay(20)
+WebUI.delay(40)
 
 TestObject btnApprovalPencairan = new TestObject('btnApprovalPencairan')
 btnApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')

@@ -44,7 +44,8 @@ transaksiKas.addProperty('xpath', ConditionType.EQUALS, '//a[@href=\'/transaksi-
 
 WebUI.click(transaksiKas)
 
-WebUI.delay(35)
+WebUI.delay(40)
+
 
 //Pengajuan Transaksi Kas
 TestObject btnTambah = new TestObject('btnTambah')
@@ -71,7 +72,7 @@ WebUI.click(pilihTanggal)
 //Pilih tanggal
 TestObject tanggal = new TestObject()
 
-tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'17\']')
+tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'20\']')
 
 WebUI.waitForElementClickable(tanggal, 20)
 
@@ -114,13 +115,14 @@ btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space(t
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
+
 //Approve approval transaksi kas
 TestObject menuApproval = new TestObject().addProperty("xpath",com.kms.katalon.core.testobject.ConditionType.EQUALS, "//a[@href='/approve-transaksi-kas']")
 
 WebUI.waitForElementClickable(menuApproval, 10)
 WebUI.click(menuApproval)
 
-WebUI.delay(30)
+WebUI.delay(40)
 
 TestObject btnApproveRow1 = new TestObject('btnApproveRow1')
 btnApproveRow1.addProperty("xpath", ConditionType.EQUALS, "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
@@ -138,20 +140,37 @@ WebUI.setText(textareaCatatan, "Ok")
 
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Setujui_1'))
 
+WebUI.delay(20)
+
+
 //Laporan Bagan Akun
-TestObject menuPelaporan = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Pelaporan')]")
-WebUI.click(menuPelaporan)
+TestObject menuPelaporan = new TestObject('menuPelaporan')
+menuPelaporan.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Pelaporan\')]')
 
-TestObject menuLapAkutansi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Laporan Akuntansi')]")
-WebUI.click(menuLapAkutansi)
+WebElement elpelaporan = WebUiCommonHelper.findWebElement(menuPelaporan, 10)
+js.executeScript("arguments[0].scrollIntoView(true);", elpelaporan)
+js.executeScript("arguments[0].click();", elpelaporan)
 
-TestObject baganAkun = new TestObject()
-baganAkun.addProperty('xpath', ConditionType.EQUALS, '//a[@href=\'/bagan-akun\']')
+TestObject menuLapAkun = new TestObject('menuLapAkun')
+menuLapAkun.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Laporan Akuntansi\')]')
 
-WebUI.click(baganAkun)
+WebElement elakun = WebUiCommonHelper.findWebElement(menuLapAkun, 10)
+js.executeScript('arguments[0].click();', elakun)
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/section_Filters              Kantor Pusat (_f88181'))
+TestObject submenuBaganAkun = new TestObject('submenuBaganAkun')
+submenuBaganAkun.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'has-sub\') and .//span[normalize-space(text())=\'Laporan Akuntansi\']]//ul//span[normalize-space(text())=\'Bagan Akun\']')
 
-WebUI.click(findTestObject('Object Repository/Page_PPMDKS/svg_Konsolidasi_mr-0 mr-sm-50 feather feath_dfdde7'))
+WebUI.waitForElementVisible(submenuBaganAkun, 30)
+WebUI.click(submenuBaganAkun)
+
+TestObject dropdownBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Pilih Lokasi Outlet\']')
+WebUI.click(dropdownBaganAkun)
+WebUI.setText(dropdownBaganAkun, 'Kantor Pusat (Konvensional)')
+
+TestObject optionBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//li[contains(@id,\'vs\') and normalize-space()=\'Kantor Pusat (Konvensional)\']')
+WebUI.waitForElementVisible(optionBaganAkun, 10)
+
+WebUI.click(optionBaganAkun)
+WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Filter'))
 
 WebUI.closeBrowser()

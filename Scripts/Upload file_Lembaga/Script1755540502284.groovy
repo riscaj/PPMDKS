@@ -60,7 +60,7 @@ WebUI.click(pilihan)
 TestObject namalembaga = new TestObject('namalembaga')
 namalembaga.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lembaga\']')
 WebUI.waitForElementVisible(namalembaga, 10)
-WebUI.setText(namalembaga, 'Yayasan Angkasa1')
+WebUI.setText(namalembaga, 'Yayasan Angkasa2')
 
 //Alamat Lembaga
 TestObject alamatField = new TestObject()
