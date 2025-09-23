@@ -24,6 +24,8 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as Helper
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
 WebUI.openBrowser('')
 
@@ -47,6 +49,7 @@ menuPenyaluranPusat.addProperty('xpath', ConditionType.EQUALS, '//span[contains(
 
 WebElement el = WebUiCommonHelper.findWebElement(menuPenyaluranPusat, 10)
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
 js.executeScript('arguments[0].click();', el)
 
 TestObject submenuPengajuan = new TestObject('submenuPengajuan')
@@ -78,7 +81,7 @@ WebUI.setText(inputPIC, 'Marisca J9')
 TestObject optionPIC = new TestObject('optionPIC')
 optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J9\')]')
 
-WebUI.waitForElementVisible(optionPIC, 30)
+WebUI.waitForElementVisible(optionPIC, 20)
 WebUI.click(optionPIC)
 
 TestObject dropdownLembaga = new TestObject('dropdownLembaga')
@@ -96,7 +99,7 @@ WebUI.setText(inputLembaga, 'Yayasan Mini9')
 TestObject optionLembaga = new TestObject('optionLembaga')
 optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini9\']')
 
-WebUI.waitForElementVisible(optionLembaga, 20)
+WebUI.waitForElementVisible(optionLembaga, 10)
 WebUI.click(optionLembaga)
 
 TestObject namaproposal = new TestObject('namaproposal')
@@ -133,14 +136,12 @@ TestObject inputRT = new TestObject('dynamicRT')
 inputRT.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rt\']')
 
 WebUI.waitForElementVisible(inputRT, 10)
-
 WebUI.setText(inputRT, '1')
 
 TestObject inputRW = new TestObject('dynamicRW')
 inputRW.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rw\']')
 
 WebUI.waitForElementVisible(inputRW, 10)
-
 WebUI.setText(inputRW, '5')
 
 TestObject dropdownProvinsi = new TestObject('dropdownProvinsi')
@@ -149,7 +150,6 @@ dropdownProvinsi.addProperty('xpath', ConditionType.EQUALS, '//div[@id=\'vs7__co
 WebUI.click(dropdownProvinsi)
 
 String opsiProvinsi = 'BALI'
-
 TestObject pilihanProvinsi = new TestObject('option_Provinsi')
 pilihanProvinsi.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@id,\'vs7__option\') and normalize-space(text())=\'' + opsiProvinsi) + '\']')
 
@@ -184,7 +184,6 @@ WebUI.click(dropdownKel)
 
 String opsiKel = 'KUBU'
 TestObject pilihanKel = new TestObject('option_Kel')
-
 pilihanKel.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@id,\'vs10__option\') and normalize-space(text())=\'' + opsiKel) + '\']')
 
 WebUI.click(pilihanKel)
@@ -196,17 +195,20 @@ WebUI.waitForElementClickable(radioJenisKegiatan, 10)
 WebUI.click(radioJenisKegiatan)
 
 TestObject textareaKeterangan = new TestObject('textareaKeterangan')
-
 textareaKeterangan.addProperty('xpath', ConditionType.EQUALS, '(//textarea)[last()]')
 
 if (WebUI.verifyElementPresent(textareaKeterangan, 5, FailureHandling.OPTIONAL)) {
     WebUI.setText(textareaKeterangan, 'keterangan kegiatan ada di sini')
 }
 
-TestObject uploadFileInput = new TestObject()
-uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+String projectDir = RunConfiguration.getProjectDir()
 
-WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
+String filePath = projectDir + GlobalVariable.fileUpload
+
+TestObject uploadFile = new TestObject()
+uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
+
+WebUI.uploadFile(uploadFile, filePath)
 
 TestObject simpanBtnPengajuan = new TestObject()
 simpanBtnPengajuan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')

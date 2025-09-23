@@ -21,6 +21,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.JavascriptExecutor
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
 WebUI.openBrowser('')
 
@@ -55,7 +57,7 @@ TestObject inputNIK = new TestObject('inputNIK')
 inputNIK.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_ktp\']')
 
 WebUI.waitForElementVisible(inputNIK, 10)
-WebUI.setText(inputNIK, '3277676877008014')
+WebUI.setText(inputNIK, '3277676877008015')
 
 TestObject searchBtn = new TestObject('searchBtn')
 searchBtn.addProperty('xpath', ConditionType.EQUALS, '//button[@class=\'btn btn-outline-primary\']')
@@ -71,7 +73,7 @@ TestObject namalengkap = new TestObject('namalengkap')
 namalengkap.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lengkap\']')
 
 WebUI.waitForElementVisible(namalengkap, 10)
-WebUI.setText(namalengkap, 'Marisca JL2')
+WebUI.setText(namalengkap, 'Marisca JL3')
 
 TestObject tanggalLahir = new TestObject()
 tanggalLahir.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'tanggal_lahir\']')
@@ -217,10 +219,14 @@ WebUI.waitForElementVisible(inputNoTlp, 10)
 WebUI.setText(inputNoTlp, '652167868712')
 
 //Upload File
-TestObject uploadFileInput = new TestObject()
-uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+String projectDir = RunConfiguration.getProjectDir()
 
-WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/KTP.jpeg')
+String filePathKTP = projectDir + GlobalVariable.fileKTP
+
+TestObject uploadFileKTP = new TestObject()
+uploadFileKTP.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
+
+WebUI.uploadFile(uploadFileKTP, filePathKTP)
 
 //Click Save Button
 TestObject simpanBtn = new TestObject()

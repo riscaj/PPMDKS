@@ -36,6 +36,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
 TestObject menuTransaksi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Transaksi')]")
+
 WebUI.waitForElementClickable(menuTransaksi, 10)
 WebUI.click(menuTransaksi)
 
@@ -81,6 +82,7 @@ WebUI.click(radioNonSisa)
 
 TestObject keteranganField = new TestObject()
 keteranganField.addProperty("xpath", ConditionType.EQUALS, "//label[normalize-space()='Keterangan']/following::textarea[1]")
+
 WebUI.setText(keteranganField, "lpj ump pengajuan")
 
 TestObject btnSimpan = new TestObject('btn_Simpan')
@@ -90,13 +92,13 @@ WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
 TestObject btnSimpanModal = new TestObject('btnSimpanModal')
-btnSimpanModal.addProperty("xpath", ConditionType.EQUALS,
-	"//div[@id='modal-simulasi']//button[contains(@class,'btn-success')]")
+btnSimpanModal.addProperty("xpath", ConditionType.EQUALS, "//div[@id='modal-simulasi']//button[contains(@class,'btn-success')]")
 
 WebUI.waitForElementVisible(btnSimpanModal, 10)
 
 WebElement element = WebUiCommonHelper.findWebElement(btnSimpanModal, 10)
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+
 js.executeScript("arguments[0].click();", element)
 
 WebUI.delay(40)
@@ -115,6 +117,7 @@ WebUI.waitForElementVisible(btnRowApp, 10)
 WebUI.click(btnRowApp)
 
 TestObject buttonTolak = new TestObject().addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, "//button[contains(text(),'Tolak')]")
+
 WebUI.click(buttonTolak)
 
 TestObject textareaCatatan = new TestObject().addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, "//textarea[@id='catatan-input']")

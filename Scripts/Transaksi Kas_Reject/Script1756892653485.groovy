@@ -55,63 +55,51 @@ WebUI.waitForElementVisible(btnTambah, 20)
 WebUI.scrollToElement(btnTambah, 5)
 
 WebElement element = WebUI.findWebElement(btnTambah, 10)
-
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 js.executeScript('arguments[0].click();', element)
 
 //Klik field tanggal (button yang membuka datepicker)
 TestObject pilihTanggal = new TestObject()
-
 pilihTanggal.addProperty('xpath', ConditionType.EQUALS, '//div[contains(@class,\'b-form-datepicker\')]//button[@type=\'button\']')
 
 WebUI.waitForElementClickable(pilihTanggal, 20)
-
 WebUI.click(pilihTanggal)
 
 //Pilih tanggal
 TestObject tanggal = new TestObject()
-
 tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'20\']')
 
 WebUI.waitForElementClickable(tanggal, 20)
-
 WebUI.click(tanggal)
 
-//Input search
+//Input jenis
 TestObject inputSearch = new TestObject('inputSearchDropdown')
-
 inputSearch.addProperty('xpath', ConditionType.EQUALS, '//input[contains(@class,\'vs__search\')]')
 
 WebUI.waitForElementVisible(inputSearch, 10)
-
 WebUI.click(inputSearch)
-
 WebUI.setText(inputSearch, 'PEMBAYARAN UMP - PUSAT')
 
-//Pilih opsi
 TestObject option = new TestObject('dropdownOption')
-
 option.addProperty('xpath', ConditionType.EQUALS, '//li[contains(normalize-space(.),\'PEMBAYARAN UMP - PUSAT\')]')
 
 WebUI.waitForElementVisible(option, 10)
-
 WebUI.click(option)
 
 WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__number'), '10,000')
 
 //Input keterangan
 TestObject fieldKeterangan = new TestObject()
-
 fieldKeterangan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@name=\'keterangan\']')
 
 WebUI.waitForElementVisible(fieldKeterangan, 20)
-
 WebUI.setText(fieldKeterangan, 'tes kas')
 
 //Simpan transaksi kas
 TestObject btnSimpan = new TestObject('btn_Simpan')
 btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space(text())=\'Simpan\']')
+
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
@@ -125,8 +113,7 @@ WebUI.click(menuApproval)
 WebUI.delay(40)
 
 TestObject btnApproveRow1 = new TestObject('btnApproveRow1')
-btnApproveRow1.addProperty("xpath", ConditionType.EQUALS,
-    "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
+btnApproveRow1.addProperty("xpath", ConditionType.EQUALS, "(//table//tbody//tr)[1]//button[contains(@class,'btn-success')]")
 
 WebUI.waitForElementVisible(btnApproveRow1, 10)
 WebUI.click(btnApproveRow1)

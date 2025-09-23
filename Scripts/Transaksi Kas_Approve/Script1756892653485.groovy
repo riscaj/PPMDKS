@@ -37,6 +37,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
 TestObject menuTransaksi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Transaksi')]")
+
 WebUI.click(menuTransaksi)
 
 TestObject transaksiKas = new TestObject()
@@ -55,63 +56,51 @@ WebUI.waitForElementVisible(btnTambah, 20)
 WebUI.scrollToElement(btnTambah, 5)
 
 WebElement element = WebUI.findWebElement(btnTambah, 10)
-
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 js.executeScript('arguments[0].click();', element)
 
 //Klik field tanggal (button yang membuka datepicker)
 TestObject pilihTanggal = new TestObject()
-
 pilihTanggal.addProperty('xpath', ConditionType.EQUALS, '//div[contains(@class,\'b-form-datepicker\')]//button[@type=\'button\']')
 
 WebUI.waitForElementClickable(pilihTanggal, 20)
-
 WebUI.click(pilihTanggal)
 
 //Pilih tanggal
 TestObject tanggal = new TestObject()
-
 tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'20\']')
 
 WebUI.waitForElementClickable(tanggal, 20)
-
 WebUI.click(tanggal)
 
-//Input search
+//Input jenis
 TestObject inputSearch = new TestObject('inputSearchDropdown')
-
 inputSearch.addProperty('xpath', ConditionType.EQUALS, '//input[contains(@class,\'vs__search\')]')
 
 WebUI.waitForElementVisible(inputSearch, 10)
-
 WebUI.click(inputSearch)
-
 WebUI.setText(inputSearch, 'PEMBAYARAN UMP - PUSAT')
 
-//Pilih opsi
 TestObject option = new TestObject('dropdownOption')
-
 option.addProperty('xpath', ConditionType.EQUALS, '//li[contains(normalize-space(.),\'PEMBAYARAN UMP - PUSAT\')]')
 
 WebUI.waitForElementVisible(option, 10)
-
 WebUI.click(option)
 
 WebUI.setText(findTestObject('Object Repository/Page_PPMDKS/input__number'), '10,000')
 
 //Input keterangan
 TestObject fieldKeterangan = new TestObject()
-
 fieldKeterangan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@name=\'keterangan\']')
 
 WebUI.waitForElementVisible(fieldKeterangan, 20)
-
 WebUI.setText(fieldKeterangan, 'tes kas')
 
 //Simpan transaksi kas
 TestObject btnSimpan = new TestObject('btn_Simpan')
 btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space(text())=\'Simpan\']')
+
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
@@ -131,6 +120,7 @@ WebUI.waitForElementVisible(btnApproveRow1, 10)
 WebUI.click(btnApproveRow1)
 
 TestObject buttonSetujui = new TestObject().addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, "//button[contains(text(),'Setujui')]")
+
 WebUI.click(buttonSetujui)
 
 TestObject textareaCatatan = new TestObject().addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, "//textarea[@id='catatan-input']")
@@ -148,6 +138,7 @@ TestObject menuPelaporan = new TestObject('menuPelaporan')
 menuPelaporan.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Pelaporan\')]')
 
 WebElement elpelaporan = WebUiCommonHelper.findWebElement(menuPelaporan, 10)
+
 js.executeScript("arguments[0].scrollIntoView(true);", elpelaporan)
 js.executeScript("arguments[0].click();", elpelaporan)
 
@@ -155,6 +146,7 @@ TestObject menuLapAkun = new TestObject('menuLapAkun')
 menuLapAkun.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Laporan Akuntansi\')]')
 
 WebElement elakun = WebUiCommonHelper.findWebElement(menuLapAkun, 10)
+
 js.executeScript('arguments[0].click();', elakun)
 
 TestObject submenuBaganAkun = new TestObject('submenuBaganAkun')
@@ -164,13 +156,15 @@ WebUI.waitForElementVisible(submenuBaganAkun, 30)
 WebUI.click(submenuBaganAkun)
 
 TestObject dropdownBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Pilih Lokasi Outlet\']')
+
 WebUI.click(dropdownBaganAkun)
 WebUI.setText(dropdownBaganAkun, 'Kantor Pusat (Konvensional)')
 
 TestObject optionBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//li[contains(@id,\'vs\') and normalize-space()=\'Kantor Pusat (Konvensional)\']')
-WebUI.waitForElementVisible(optionBaganAkun, 10)
 
+WebUI.waitForElementVisible(optionBaganAkun, 10)
 WebUI.click(optionBaganAkun)
+
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Filter'))
 
 WebUI.closeBrowser()

@@ -24,6 +24,8 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as Helper
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
 WebUI.openBrowser('')
 
@@ -78,7 +80,7 @@ WebUI.setText(inputPIC, 'Marisca J8')
 TestObject optionPIC = new TestObject('optionPIC')
 optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J8\')]')
 
-WebUI.waitForElementVisible(optionPIC, 30)
+WebUI.waitForElementVisible(optionPIC, 20)
 WebUI.click(optionPIC)
 
 TestObject dropdownLembaga = new TestObject('dropdownLembaga')
@@ -96,7 +98,7 @@ WebUI.setText(inputLembaga, 'Yayasan Mini8')
 TestObject optionLembaga = new TestObject('optionLembaga')
 optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini8\']')
 
-WebUI.waitForElementVisible(optionLembaga, 20)
+WebUI.waitForElementVisible(optionLembaga, 10)
 WebUI.click(optionLembaga)
 
 TestObject namaproposal = new TestObject('namaproposal')
@@ -203,10 +205,14 @@ if (WebUI.verifyElementPresent(textareaKeterangan, 5, FailureHandling.OPTIONAL))
     WebUI.setText(textareaKeterangan, 'keterangan kegiatan ada di sini')
 }
 
-TestObject uploadFileInput = new TestObject()
-uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+String projectDir = RunConfiguration.getProjectDir()
 
-WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
+String filePath = projectDir + GlobalVariable.fileUpload
+
+TestObject uploadFile = new TestObject()
+uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
+
+WebUI.uploadFile(uploadFile, filePath)
 
 TestObject simpanBtnPengajuan = new TestObject()
 simpanBtnPengajuan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')

@@ -36,6 +36,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
 TestObject menuTransaksi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Transaksi')]")
+
 WebUI.waitForElementClickable(menuTransaksi, 10)
 WebUI.click(menuTransaksi)
 
@@ -82,6 +83,7 @@ WebUI.click(radioNonSisa)
 
 TestObject keteranganField = new TestObject()
 keteranganField.addProperty("xpath", ConditionType.EQUALS, "//label[normalize-space()='Keterangan']/following::textarea[1]")
+
 WebUI.setText(keteranganField, "lpj ump pengajuan")
 
 TestObject btnSimpan = new TestObject('btn_Simpan')
@@ -91,13 +93,13 @@ WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.click(btnSimpan)
 
 TestObject btnSimpanModal = new TestObject('btnSimpanModal')
-btnSimpanModal.addProperty("xpath", ConditionType.EQUALS,
-	"//div[@id='modal-simulasi']//button[contains(@class,'btn-success')]")
+btnSimpanModal.addProperty("xpath", ConditionType.EQUALS, "//div[@id='modal-simulasi']//button[contains(@class,'btn-success')]")
 
 WebUI.waitForElementVisible(btnSimpanModal, 10)
 
 WebElement element = WebUiCommonHelper.findWebElement(btnSimpanModal, 10)
 JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+
 js.executeScript("arguments[0].click();", element)
 
 WebUI.delay(40)
@@ -133,6 +135,7 @@ TestObject menuPelaporan = new TestObject('menuPelaporan')
 menuPelaporan.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Pelaporan\')]')
 
 WebElement elpelaporan = WebUiCommonHelper.findWebElement(menuPelaporan, 10)
+
 js.executeScript("arguments[0].scrollIntoView(true);", elpelaporan)
 js.executeScript("arguments[0].click();", elpelaporan)
 
@@ -140,6 +143,7 @@ TestObject menuLapAkun = new TestObject('menuLapAkun')
 menuLapAkun.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Laporan Akuntansi\')]')
 
 WebElement elakun = WebUiCommonHelper.findWebElement(menuLapAkun, 10)
+
 js.executeScript('arguments[0].click();', elakun)
 
 TestObject submenuBaganAkun = new TestObject('submenuBaganAkun')
@@ -149,13 +153,15 @@ WebUI.waitForElementVisible(submenuBaganAkun, 30)
 WebUI.click(submenuBaganAkun)
 
 TestObject dropdownBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Pilih Lokasi Outlet\']')
+
 WebUI.click(dropdownBaganAkun)
 WebUI.setText(dropdownBaganAkun, 'Kantor Pusat (Konvensional)')
 
 TestObject optionBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//li[contains(@id,\'vs\') and normalize-space()=\'Kantor Pusat (Konvensional)\']')
-WebUI.waitForElementVisible(optionBaganAkun, 10)
 
+WebUI.waitForElementVisible(optionBaganAkun, 10)
 WebUI.click(optionBaganAkun)
+
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Filter'))
 
 WebUI.closeBrowser()
