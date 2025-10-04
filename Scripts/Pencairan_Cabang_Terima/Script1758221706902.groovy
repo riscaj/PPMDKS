@@ -40,14 +40,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(30)
+WebUI.delay(20)
 
 
 //Pengajuan Cabang
 TestObject menuPenyaluranCabang = new TestObject('menuPenyaluranCabang')
 menuPenyaluranCabang.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Penyaluran Cabang\')]')
 
-WebElement el = WebUiCommonHelper.findWebElement(menuPenyaluranCabang, 10)
+WebElement el = WebUiCommonHelper.findWebElement(menuPenyaluranCabang, 20)
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 js.executeScript('arguments[0].click();', el)
@@ -62,9 +62,11 @@ WebUI.delay(40)
 TestObject btnTambahData = new TestObject('dynamic_button_TambahData')
 btnTambahData.addProperty('xpath', ConditionType.EQUALS, '//span[contains(text(),\'Tambah Data\')]/parent::button')
 
-WebUI.waitForElementVisible(btnTambahData, 10)
-WebUI.waitForElementClickable(btnTambahData, 10)
+WebUI.waitForElementVisible(btnTambahData, 20)
+WebUI.waitForElementClickable(btnTambahData, 20)
 WebUI.click(btnTambahData)
+
+WebUI.delay(40)
 
 TestObject dropdownPIC = new TestObject('dropdownPIC')
 dropdownPIC.addProperty('xpath', ConditionType.EQUALS, '(//div[contains(@class,\'vs__dropdown-toggle\')])[1]')
@@ -75,10 +77,10 @@ WebUI.delay(40)
 TestObject inputPIC = new TestObject('inputPIC')
 inputPIC.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'search\' and contains(@class,\'vs__search\')])[1]')
 
-WebUI.setText(inputPIC, 'Marisca J12')
+WebUI.setText(inputPIC, 'Marisca_13')
 
 TestObject optionPIC = new TestObject('optionPIC')
-optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca J12\')]')
+optionPIC.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and contains(text(),\'Marisca_13\')]')
 
 WebUI.waitForElementVisible(optionPIC, 20)
 WebUI.click(optionPIC)
@@ -93,12 +95,12 @@ TestObject inputLembaga = new TestObject('inputLembaga')
 inputLembaga.addProperty('xpath', ConditionType.EQUALS, '(//input[contains(@class,\'vs__search\')])[2]')
 
 WebUI.waitForElementVisible(inputLembaga, 20)
-WebUI.setText(inputLembaga, 'Yayasan Mini11')
+WebUI.setText(inputLembaga, 'Yayasan_13')
 
 TestObject optionLembaga = new TestObject('optionLembaga')
-optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan Mini11\']')
+optionLembaga.addProperty('xpath', ConditionType.EQUALS, '//li[contains(@class,\'vs__dropdown-option\') and normalize-space(text())=\'Yayasan_13\']')
 
-WebUI.waitForElementVisible(optionLembaga, 10)
+WebUI.waitForElementVisible(optionLembaga, 20)
 WebUI.click(optionLembaga)
 
 TestObject namaproposal = new TestObject('namaproposal')
@@ -124,7 +126,7 @@ WebUI.setText(tanggalProposal, '20-09-2025')
 TestObject nilaibantuan = new TestObject('nilaibantuan')
 nilaibantuan.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Permohonan Nilai Bantuan\']')
 
-WebUI.setText(nilaibantuan, '1,000')
+WebUI.setText(nilaibantuan, '10,000')
 
 TestObject LokasiBantuan = new TestObject()
 LokasiBantuan.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'Lokasi Bantuan\']/following::textarea[1]')
@@ -134,13 +136,13 @@ WebUI.setText(LokasiBantuan, 'Jl. Cempedak No. 7')
 TestObject inputRT = new TestObject('dynamicRT')
 inputRT.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rt\']')
 
-WebUI.waitForElementVisible(inputRT, 10)
+WebUI.waitForElementVisible(inputRT, 20)
 WebUI.setText(inputRT, '1')
 
 TestObject inputRW = new TestObject('dynamicRW')
 inputRW.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'rw\']')
 
-WebUI.waitForElementVisible(inputRW, 10)
+WebUI.waitForElementVisible(inputRW, 20)
 WebUI.setText(inputRW, '5')
 
 TestObject dropdownProvinsi = new TestObject('dropdownProvinsi')
@@ -190,7 +192,7 @@ WebUI.click(pilihanKel)
 TestObject radioJenisKegiatan = new TestObject('radioJenisKegiatan')
 radioJenisKegiatan.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'radio\' and @value=\'Program Kerja\']')
 
-WebUI.waitForElementClickable(radioJenisKegiatan, 10)
+WebUI.waitForElementClickable(radioJenisKegiatan, 20)
 WebUI.click(radioJenisKegiatan)
 
 TestObject textareaKeterangan = new TestObject('textareaKeterangan')
@@ -217,6 +219,8 @@ WebUI.click(simpanBtnPengajuan)
 TestObject closeBtnPengajuan = new TestObject()
 closeBtnPengajuan.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Tutup\']')
 
+WebUI.waitForElementClickable(closeBtnPengajuan, 20)
+
 WebUI.click(closeBtnPengajuan)
 
 
@@ -231,7 +235,7 @@ WebUI.delay(40)
 TestObject btnApproveVerifikasiBerkas = new TestObject('btnApproveVerifikasiBerkas')
 btnApproveVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '(//button[@title=\'Approve\' and contains(@class,\'btn-success\')])[1]')
 
-WebUI.waitForElementVisible(btnApproveVerifikasiBerkas, 10)
+WebUI.waitForElementVisible(btnApproveVerifikasiBerkas, 20)
 WebUI.click(btnApproveVerifikasiBerkas)
 
 TestObject buttonTerimaVerifikasiBerkas = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
@@ -240,6 +244,8 @@ WebUI.click(buttonTerimaVerifikasiBerkas)
 
 TestObject closeBtnVerifikasiBerkas = new TestObject()
 closeBtnVerifikasiBerkas.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Tutup\']')
+
+WebUI.waitForElementVisible(closeBtnVerifikasiBerkas, 20)
 
 WebUI.click(closeBtnVerifikasiBerkas)
 
@@ -264,14 +270,14 @@ WebUI.click(dropdownTujuan)
 
 TestObject inputSearchTujuan = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Tujuan Pembangunan Berkelanjutan\')]/following::input[contains(@class,\'vs__search\')][1]')
 
-WebUI.waitForElementVisible(inputSearchTujuan, 10)
-WebUI.setText(inputSearchTujuan, 'Tanpa Kelaparan')
+WebUI.waitForElementVisible(inputSearchTujuan, 20)
+WebUI.setText(inputSearchTujuan, 'Kehidupan Sehat dan Sejahtera')
 WebUI.sendKeys(inputSearchTujuan, Keys.chord(Keys.ENTER))
 
 TestObject bentukKegiatan = new TestObject('bentukKegiatan')
 bentukKegiatan.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'bentuk_kegiatan\']')
 
-WebUI.waitForElementVisible(bentukKegiatan, 10)
+WebUI.waitForElementVisible(bentukKegiatan, 20)
 WebUI.setText(bentukKegiatan, 'Ikatan Kasih')
 
 TestObject dropdownObjekBantuan = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Kondisi Objek Bantuan\')]/following::div[contains(@class,\'vs__selected-options\')][1]')
@@ -280,7 +286,7 @@ WebUI.click(dropdownObjekBantuan)
 
 TestObject inputSearchObjekBantuan = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Kondisi Objek Bantuan\')]/following::input[contains(@class,\'vs__search\')][1]')
 
-WebUI.waitForElementVisible(inputSearchObjekBantuan, 10)
+WebUI.waitForElementVisible(inputSearchObjekBantuan, 20)
 WebUI.setText(inputSearchObjekBantuan, 'Layak')
 WebUI.sendKeys(inputSearchObjekBantuan, Keys.chord(Keys.ENTER))
 
@@ -300,15 +306,15 @@ WebUI.click(dropdownJenisBantuan)
 
 TestObject inputSearchJenisBantuan = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Jenis Bantuan\')]/following::input[contains(@class,\'vs__search\')][1]')
 
-WebUI.waitForElementVisible(inputSearchJenisBantuan, 10)
+WebUI.waitForElementVisible(inputSearchJenisBantuan, 20)
 WebUI.setText(inputSearchJenisBantuan, 'Tunai')
 WebUI.sendKeys(inputSearchJenisBantuan, Keys.chord(Keys.ENTER))
 
 TestObject PerkiraanBantuan = new TestObject('PerkiraanBantuan')
 PerkiraanBantuan.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Perkiraan Bantuan\']')
 
-WebUI.waitForElementVisible(PerkiraanBantuan, 10)
-WebUI.setText(PerkiraanBantuan, '1,000')
+WebUI.waitForElementVisible(PerkiraanBantuan, 20)
+WebUI.setText(PerkiraanBantuan, '10,000')
 
 TestObject dropdownSatuanUkur = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Satuan Ukur\')]/following::div[contains(@class,\'vs__selected-options\')][1]')
 
@@ -316,14 +322,14 @@ WebUI.click(dropdownSatuanUkur)
 
 TestObject inputSearchSatuanUkur = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//label[contains(.,\'Satuan Ukur\')]/following::input[contains(@class,\'vs__search\')][1]')
 
-WebUI.waitForElementVisible(inputSearchSatuanUkur, 10)
+WebUI.waitForElementVisible(inputSearchSatuanUkur, 20)
 WebUI.setText(inputSearchSatuanUkur, 'Unit')
 WebUI.sendKeys(inputSearchSatuanUkur, Keys.chord(Keys.ENTER))
 
 TestObject RealisasiIndikator = new TestObject('RealisasiIndikator')
 RealisasiIndikator.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Realisasi Indikator\']')
 
-WebUI.waitForElementVisible(RealisasiIndikator, 10)
+WebUI.waitForElementVisible(RealisasiIndikator, 20)
 WebUI.setText(RealisasiIndikator, '2')
 
 //Pilih "Ya"
@@ -359,7 +365,7 @@ WebUI.delay(40)
 TestObject btnApproveRekomendasi = new TestObject('btnApproveRekomendasi')
 btnApproveRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApproveRekomendasi, 10)
+WebUI.waitForElementVisible(btnApproveRekomendasi, 20)
 WebUI.click(btnApproveRekomendasi)
 
 TestObject buttonTerimaRekomendasi = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
@@ -378,7 +384,7 @@ WebUI.delay(40)
 TestObject btnApproveDeputiBisnis = new TestObject('btnApproveDeputiBisnis')
 btnApproveDeputiBisnis.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApproveDeputiBisnis, 10)
+WebUI.waitForElementVisible(btnApproveDeputiBisnis, 20)
 WebUI.click(btnApproveDeputiBisnis)
 
 TestObject ketApp = new TestObject()
@@ -407,7 +413,7 @@ WebUI.delay(40)
 TestObject btnApprovePermohonanDana = new TestObject('btnApprovePermohonanDana')
 btnApprovePermohonanDana.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApprovePermohonanDana, 10)
+WebUI.waitForElementVisible(btnApprovePermohonanDana, 20)
 WebUI.click(btnApprovePermohonanDana)
 
 TestObject buttonTerimaPermohonanDana = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
@@ -425,7 +431,7 @@ WebUI.delay(40)
 TestObject btnApprovePengrimanDana = new TestObject('btnApprovePengrimanDana')
 btnApprovePengrimanDana.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApprovePengrimanDana, 10)
+WebUI.waitForElementVisible(btnApprovePengrimanDana, 20)
 WebUI.click(btnApprovePengrimanDana)
 
 TestObject buttonTerimaPengrimanDana = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
@@ -449,7 +455,7 @@ WebUI.delay(40)
 TestObject btnUMP = new TestObject('btnUMP')
 btnUMP.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnUMP, 10)
+WebUI.waitForElementVisible(btnUMP, 20)
 WebUI.click(btnUMP)
 
 TestObject btnSimpanUMP = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Simpan\')]')
@@ -469,14 +475,14 @@ WebUI.delay(40)
 TestObject btnApprovePencairan = new TestObject('btnApprovePencairan')
 btnApprovePencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApprovePencairan, 10)
+WebUI.waitForElementVisible(btnApprovePencairan, 20)
 WebUI.click(btnApprovePencairan)
 
 TestObject NilaiPencairan = new TestObject('NilaiPencairan')
 NilaiPencairan.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nilai Pencairan\']')
 
-WebUI.waitForElementVisible(NilaiPencairan, 10)
-WebUI.setText(NilaiPencairan, '1,000')
+WebUI.waitForElementVisible(NilaiPencairan, 20)
+WebUI.setText(NilaiPencairan, '10,000')
 
 TestObject buttonTerimaPencairan = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Terima\')]')
 
@@ -521,7 +527,7 @@ WebUI.delay(40)
 TestObject btnApprovalPencairan = new TestObject('btnApprovalPencairan')
 btnApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//button[@title=\'approve\' and contains(@class,\'btn-primary\')]')
 
-WebUI.waitForElementVisible(btnApprovalPencairan, 10)
+WebUI.waitForElementVisible(btnApprovalPencairan, 20)
 WebUI.click(btnApprovalPencairan)
 
 TestObject buttonSetujuiAppPencairan = new TestObject().addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//button[contains(text(),\'Setujui\')]')
@@ -535,7 +541,9 @@ closeBtnApprovalPencairan.addProperty('xpath', ConditionType.EQUALS, '//button[n
 
 WebUI.click(closeBtnApprovalPencairan)
 
+WebUI.delay(20)
 
+/*
 //Laporan Bagan Akun
 TestObject menuPelaporan = new TestObject('menuPelaporan')
 menuPelaporan.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Pelaporan\')]')
@@ -561,9 +569,11 @@ WebUI.click(dropdownBaganAkun)
 WebUI.setText(dropdownBaganAkun, 'AREA SENEN')
 
 TestObject optionBaganAkun = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//li[contains(@id,\'vs\') and normalize-space()=\'AREA SENEN\']')
-WebUI.waitForElementVisible(optionBaganAkun, 10)
+WebUI.waitForElementVisible(optionBaganAkun, 20)
 
 WebUI.click(optionBaganAkun)
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Filter'))
+
+WebUI.delay(30)*/
 
 WebUI.closeBrowser()

@@ -35,6 +35,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(20)
+
+
+//Pengajuan LPJ UMP
 TestObject menuTransaksi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Transaksi')]")
 
 WebUI.waitForElementClickable(menuTransaksi, 10)
@@ -47,8 +51,6 @@ WebUI.click(menuLPJUMP)
 
 WebUI.delay(40)
 
-
-//Pengajuan LPJ UMP
 TestObject btnTambah = new TestObject('btnTambah')
 btnTambah.addProperty('xpath', ConditionType.EQUALS, '//button[span[normalize-space(text())=\'Tambah Data\']]')
 
@@ -69,10 +71,12 @@ WebUI.waitForElementClickable(pilihTanggal, 20)
 WebUI.click(pilihTanggal)
 
 //Pilih tanggal
-TestObject tanggal = new TestObject()
-tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'22\']')
+String hari = "3"
 
-WebUI.waitForElementClickable(tanggal, 20)
+TestObject tanggal = new TestObject()
+tanggal.addProperty('xpath', ConditionType.EQUALS, "//span[normalize-space()='" + hari + "']")
+
+WebUI.waitForElementClickable(tanggal, 30)
 WebUI.click(tanggal)
 
 // Pilih LPJ Non Sisa
@@ -129,7 +133,7 @@ WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Setujui_1'))
 
 WebUI.delay(20)
 
-
+/*
 //Laporan Bagan Akun
 TestObject menuPelaporan = new TestObject('menuPelaporan')
 menuPelaporan.addProperty('xpath', ConditionType.EQUALS, '//span[contains(@class,\'menu-title\') and contains(.,\'Pelaporan\')]')
@@ -163,5 +167,7 @@ WebUI.waitForElementVisible(optionBaganAkun, 10)
 WebUI.click(optionBaganAkun)
 
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Filter'))
+
+WebUI.delay(30)*/
 
 WebUI.closeBrowser()

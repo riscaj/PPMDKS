@@ -38,6 +38,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_logi
 
 WebUI.delay(20)
 
+
+//Tambah PIC
 TestObject btnDataPIC = new TestObject()
 btnDataPIC.addProperty('xpath', ConditionType.EQUALS, "//a[@href='/data-pic' and contains(.,'Data PIC')]")
 
@@ -45,7 +47,6 @@ WebUI.click(btnDataPIC)
 
 WebUI.delay(35)
 
-//Click Tambah Data
 TestObject btnTambahData = new TestObject('dynamic_button_TambahData')
 btnTambahData.addProperty('xpath', ConditionType.EQUALS, '//span[contains(text(),\'Tambah Data\')]/parent::button')
 
@@ -57,7 +58,7 @@ TestObject inputNIK = new TestObject('inputNIK')
 inputNIK.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nomor_ktp\']')
 
 WebUI.waitForElementVisible(inputNIK, 10)
-WebUI.setText(inputNIK, '3277676877008015')
+WebUI.setText(inputNIK, '3275035107890018')
 
 TestObject searchBtn = new TestObject('searchBtn')
 searchBtn.addProperty('xpath', ConditionType.EQUALS, '//button[@class=\'btn btn-outline-primary\']')
@@ -73,7 +74,7 @@ TestObject namalengkap = new TestObject('namalengkap')
 namalengkap.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lengkap\']')
 
 WebUI.waitForElementVisible(namalengkap, 10)
-WebUI.setText(namalengkap, 'Marisca JL3')
+WebUI.setText(namalengkap, 'Marisca_13')
 
 TestObject tanggalLahir = new TestObject()
 tanggalLahir.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'tanggal_lahir\']')
@@ -235,6 +236,6 @@ simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()
 WebUI.click(simpanBtn)
 WebUI.click(findTestObject('Object Repository/Page_PPMDKS/button_Simpan'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()

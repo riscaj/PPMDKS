@@ -36,6 +36,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(20)
+
+
+//Pengajuan Transaksi Kas
 TestObject menuTransaksi = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//a[contains(.,'Transaksi')]")
 WebUI.click(menuTransaksi)
 
@@ -46,8 +50,6 @@ WebUI.click(transaksiKas)
 
 WebUI.delay(40)
 
-
-//Pengajuan Transaksi Kas
 TestObject btnTambah = new TestObject('btnTambah')
 btnTambah.addProperty('xpath', ConditionType.EQUALS, '//button[span[normalize-space(text())=\'Tambah Data\']]')
 
@@ -67,10 +69,12 @@ WebUI.waitForElementClickable(pilihTanggal, 20)
 WebUI.click(pilihTanggal)
 
 //Pilih tanggal
-TestObject tanggal = new TestObject()
-tanggal.addProperty('xpath', ConditionType.EQUALS, '//span[normalize-space()=\'20\']')
+String hari = "3"
 
-WebUI.waitForElementClickable(tanggal, 20)
+TestObject tanggal = new TestObject()
+tanggal.addProperty('xpath', ConditionType.EQUALS, "//span[normalize-space()='" + hari + "']")
+
+WebUI.waitForElementClickable(tanggal, 30)
 WebUI.click(tanggal)
 
 //Input jenis

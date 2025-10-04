@@ -32,8 +32,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PPMDKS/input_Passw
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_PPMDKS/input_Password_login-password'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(35)
+WebUI.delay(20)
 
+
+//Tambah Lembaga
 TestObject btnDataLembaga = new TestObject()
 btnDataLembaga.addProperty('xpath', ConditionType.EQUALS, "//a[@href='/data-lembaga' and contains(.,'Data Lembaga')]")
 
@@ -41,7 +43,6 @@ WebUI.click(btnDataLembaga)
 
 WebUI.delay(35)
 
-//Click Tambah Data
 TestObject btnTambahData = new TestObject('dynamic_button_TambahData')
 btnTambahData.addProperty('xpath', ConditionType.EQUALS, "//span[contains(text(),'Tambah Data')]/parent::button")
 
@@ -66,7 +67,7 @@ TestObject namalembaga = new TestObject('namalembaga')
 namalembaga.addProperty('xpath', ConditionType.EQUALS, '//input[@name=\'nama_lembaga\']')
 
 WebUI.waitForElementVisible(namalembaga, 10)
-WebUI.setText(namalembaga, 'Yayasan Angkasa2')
+WebUI.setText(namalembaga, 'Yayasan_13')
 
 //Alamat Lembaga
 TestObject alamatField = new TestObject()
@@ -158,6 +159,6 @@ simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()
 
 WebUI.click(simpanBtn)
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
